@@ -1,0 +1,47 @@
+@import '../_variables';
+
+header {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    left: 16px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: $card-color;
+    opacity: 0.95;
+    border-radius: 25px;
+    z-index: 1000;
+
+    img {
+        height: 70px;
+        margin-left: 24px;
+        z-index: 1;
+    }
+
+    nav {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+
+        a {
+            top: 0;
+            position: relative;
+            margin: 0 16px;
+            text-decoration: none;
+            color: $text-color;
+            font-weight: bold;
+            font-size: 24px;
+            @include main-text;
+            transition: 0.3s ease-out;
+
+            &:hover {
+                color: $main-item-color;
+                top: -4px;
+                text-shadow: 0 0 8px $main-item-color;
+            }
+        }
+    }
+}
