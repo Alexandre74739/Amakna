@@ -1,5 +1,6 @@
 import pinpin from '../assets/pinpin.png';
 import Buttons from "../components/Buttons";
+import ImagesAccordeon from "../components/ImagesAccordeon";
 import './Map.scss';
 
 function Map() {
@@ -9,6 +10,7 @@ function Map() {
       <h2>Plongez dans le monde du Krosmoz</h2>
       <img src={pinpin} alt="Pinpin" class="pinpin" />
       <Buttons />
+      <ImagesAccordeon />
     </div>
   );
 }
