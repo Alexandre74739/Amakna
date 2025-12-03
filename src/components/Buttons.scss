@@ -1,5 +1,27 @@
 @import '../_variables';
 
-button {
-    @include typo-btn;
+.btns {
+    display: flex;
+    flex-direction: row;
+    gap: 44px;
+
+    button {
+        @include typo-btn;
+
+        &:hover {
+            top: -4px;
+        }
+    }
+
+    .primary-btn:hover {
+        box-shadow: 0 0 20px $main-item-color;
+    }
+
+    .secondary-btn {
+        background-color: $second-item-color;
+
+        &:hover {
+            box-shadow: 0 0 20px $tertiary-item-color;
+        }
+    }
 }

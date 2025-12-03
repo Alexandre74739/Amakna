@@ -5,7 +5,7 @@ function Buttons() {
     const navigate = useNavigate();
 
     return (
-        <div>
+        <div className='btns'>
             <button
                 className='primary-btn'
                 onClick={() => navigate('/encyclopedie')}
