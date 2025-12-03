@@ -5,7 +5,6 @@ header {
     top: 16px;
     right: 16px;
     left: 16px;
-    width: 100%;
     display: flex;
     align-items: center;
     padding: 16px;
@@ -34,7 +33,7 @@ header {
             color: $text-color;
             font-weight: bold;
             font-size: 24px;
-            @include main-text;
+            font-weight: bold;
             transition: 0.3s ease-out;
 
             &:hover {

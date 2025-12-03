@@ -5,8 +5,8 @@ function Map() {
   return (
     <div>
       <h1>Amakna</h1>
-      <p>Plongez dans le monde du Krosmoz</p>
-      <img src={pinpin} alt="Logo" />
+      <h2>Plongez dans le monde du Krosmoz</h2>
+      <img src={pinpin} alt="Pinpin" class="pinpin" />
     </div>
   );
 }

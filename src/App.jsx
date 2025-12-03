@@ -11,6 +11,8 @@ function App() {
       {/* Header visible sur toutes les pages */}
       <Header />
 
+      <div style={{ paddingTop: "150px" }}></div>
+
       {/* Définition des routes */}
       <Routes>
         <Route path="/" element={<Map />} />
