@@ -1,16 +1,76 @@
-# React + Vite
+# Amakna
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🌌 Présentation
 
-Currently, two official plugins are available:
+Amakna est un site web interactif dédié à l’univers du Krosmoz (Wakfu, Dofus), développé dans le cadre du **Booster Portfolio** en Bachelor 2.  
+Le projet vise à centraliser le lore dispersé entre jeux, séries, BD... afin d’offrir une plateforme claire, immersive et ludique.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ce site mêle passion et compétences techniques, tout en respectant l’identité visuelle d’Ankama.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Fonctionnalités
 
-## Expanding the ESLint configuration
+### 🔹 1. Carte interactive des nations
+- 4 nations : **Bonta**, **Brâkmar**, **Amakna**, **Sufokia**
+- Zones cliquables
+- Affichage des événements historiques de chaque nation
+- Redirection vers des personnages liés
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 2. Encyclopédie des personnages
+- Minimum **10 fiches complètes**
+- Images, descriptifs, époque, liens internes
+- Navigation fluide et design inspiré d’Ankama
+
+### 🔹 3. Mini-jeux intégrés
+- **Memory**
+- **Bouf le Bouftou** (Pac-Man)
+- **Space Necrom** (Space Invaders)
+
+Jeux simples, rapides et dans l’ambiance du Krosmoz.
+
+---
+
+## 🛠️ Technologies utilisées
+- **HTML**
+- **CSS**
+- **React** (en JavaScript)
+- **Figma** (maquettage)
+
+---
+
+## 🎨 Contraintes et charte graphique
+
+- Site **entièrement en mode sombre**
+- Respect strict de l’univers Ankama :
+  - palette sombre
+  - ambiance graphique cohérente
+- Site responsive (sauf mini-jeux)
+
+---
+
+## 📦 Livrables
+
+### 🖌️ Maquette Figma
+- Pages principales : Accueil, Encyclopédie, Mini-jeux
+- Navigation, couleurs, typographies, interactions
+
+### 💻 Prototype web final
+- Cartes des nations
+- Encyclopédie fonctionnelle
+- Mini-jeux jouables
+- Mode sombre appliqué à l’ensemble du site
+
+---
+
+## 👤 Auteur
+
+**Alexandre-Philippe PEREZ**  
+Étudiant en Bachelor 2 Informatique – My Digital School Grenoble 
+Développeur web passionné par l’univers développé par Ankama.
+
+---
+
+## ⚠️ Note
+
+### Projet étudiant non affilié à Ankama.  
