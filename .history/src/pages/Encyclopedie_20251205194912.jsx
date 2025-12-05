@@ -1,24 +1,25 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Buttons from "../components/Buttons";
 import pandora from "../assets/pandora.png";
 import "./Encyclopedie.scss";
 
+const personnages = [
+  { id: 1, name: "Bolgrot", image: "/persos/bolgrot.png" },
+  { id: 2, name: "Djaul", image: "/images/persos/djaul.png" },
+  { id: 3, name: "Goultard", image: "/images/persos/goultard.png" },
+  { id: 4, name: "Harebourg", image: "/images/persos/harebourg.png" },
+  { id: 5, name: "Joris", image: "/images/persos/joris.png" },
+  { id: 6, name: "Meriana", image: "/images/persos/meriana.png" },
+  { id: 7, name: "Ottomai", image: "/images/persos/ottomai.png" }
+];
+
 function Encyclopedie() {
   const [search, setSearch] = useState("");
-  const [personnages, setPersonnages] = useState([]);
   const navigate = useNavigate();
 
-  // --- Récupération des personnages depuis l'API ---
-  useEffect(() => {
-    fetch("http://localhost:5000/api/personnages")
-      .then(res => res.json())
-      .then(data => setPersonnages(data))
-      .catch(err => console.error("Erreur API :", err));
-  }, []);
-
-  const filtered = personnages.filter(p =>
-    p.name.toLowerCase().includes(search.toLowerCase())
+  const filtered = personnages.filter((perso) =>
+    perso.name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
@@ -39,7 +40,7 @@ function Encyclopedie() {
         {filtered.map((item) => (
           <div className="card" key={item.id}>
             <img
-              src={item.image}           // récupéré depuis l'API
+              src={item.image}
               alt={item.name}
               onClick={() => navigate(`/personnage/${item.id}`)}
             />
