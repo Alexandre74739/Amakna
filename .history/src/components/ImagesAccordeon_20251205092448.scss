@@ -1,0 +1,33 @@
+@import '../_variables';
+
+.accordeon-container {
+    margin-top: 64px;
+    // Supprimé text-align: center; et align-items: center; car le centrage se fera sur .accordeon-item
+
+    .accordeon-item {
+        cursor: pointer;
+        border-radius: 25px;
+        margin: 40px auto; // Ajout de 'auto' pour centrer le bloc acccordéon-item
+        width: 75%; // Nouvelle largeur de 75% du conteneur parent (donc de la page)
+
+        img {
+            width: 100%; // L'image prend 100% de la largeur de .accordeon-item (donc 75% de la page)
+            display: block;
+            border-radius: 25px;
+            transition: 0.3s ease-out;
+
+            // Suppression de l'effet de zoom au survol
+            /*
+            &:hover {
+                transform: scale(1.02);
+            }
+            */
+        }
+
+        p {
+            @include typo-p;
+            text-align: start;
+            width: 100%; // Le paragraphe prend 100% de la largeur de .accordeon-item (donc 75% de la page)
+        }
+    }
+}

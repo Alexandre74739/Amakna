@@ -1,0 +1,33 @@
+@import '../_variables';
+
+.accordeon-item {
+    display: flex;
+    flex-direction: column;  /* image + texte en colonne */
+    align-items: center;     /* centre l'image ET permet une largeur fixe */
+
+    cursor: pointer;
+    border-radius: 25px;
+
+    img {
+        width: 100%;
+        border-radius: 25px;
+        transition: 0.3s ease-out;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+
+    .text-panel {
+        max-width: 100%;        /* ⬅ évite de dépasser */
+        margin-top: 15px;
+
+        p {
+            @include typo-p;
+            text-align: left;   /* ⬅ texte aligné à gauche */
+            margin: 0;
+            white-space: normal;
+            word-wrap: break-word; /* ⬅ évite les débordements */
+        }
+    }
+}

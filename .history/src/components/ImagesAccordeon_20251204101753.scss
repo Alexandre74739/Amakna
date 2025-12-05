@@ -1,0 +1,32 @@
+@import '../_variables';
+
+.accordeon-container {
+    margin-top: 64px;
+    text-align: center;
+    align-items: center;
+
+    .accordeon-item {
+        cursor: pointer;
+        border-radius: 25px;
+
+        /* Centrer l'item et limiter sa largeur */
+        width: 75%;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+            display: block;
+            border-radius: 25px;
+            transition: 0.3s ease-out;
+
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
+
+        p {
+            @include typo-p;
+            text-align: start;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.accordeon-item {
+    cursor: pointer;
+    border-radius: 25px;
+    overflow: hidden; // ⬅️ Empêche le texte de dépasser les bords arrondis
+
+    img {
+        width: 100%;
+        display: block; // enlève l'espace sous l'image
+        border-radius: 0; // inutile si overflow hidden
+        transition: 0.3s ease-out;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+
+    p {
+        @include typo-p;
+        text-align: start;
+        padding: 20px; // pour que le texte ne colle pas aux bords
+        background: #000; // si tu veux un fond
+    }
+}

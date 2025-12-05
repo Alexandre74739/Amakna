@@ -1,0 +1,21 @@
+@import '../_variables';
+
+div {
+    margin-top: 64px;
+    text-align: center;
+    align-items: center;
+
+    .accordeon-item {
+        cursor: pointer;
+        border: 2px solid $main-item-color;
+        padding: 20px;
+        border-radius: 12px;
+        transition: 0.3s;
+        background: #080808;
+        box-shadow: 0 0 20px $main-item-color;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}

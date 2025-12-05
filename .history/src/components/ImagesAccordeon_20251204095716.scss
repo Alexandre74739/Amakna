@@ -1,0 +1,19 @@
+@import '../_variables';
+
+div {
+    margin-top: 64px;
+    text-align: center;
+    align-items: center;
+
+    .accordeon-item {
+        cursor: pointer;
+        border-radius: 12px;
+        transition: 0.3s;
+        border: 2px solid $;
+        box-shadow: 0 0 20px $main-item-color;
+
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}

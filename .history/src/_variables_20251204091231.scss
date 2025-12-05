@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+$text-color: #F7FAFC;
+$card-color: #1B2134;
+$main-item-color: #00D0FF;
+$second-item-color: #8A2BE2;
+$tertiary-item-color: #FF00FF;
+$bg-color: #1E1E1E;
+
+$main-font: "Poppins", sans-serif;
+$second-font: "Irish Grover", system-ui;
+
+@mixin typo-h1 {
+    font-size: 96px;
+    font-family: $second-font;
+    text-shadow: 0 0 40px $main-item-color,
+        0 0 30px $main-item-color,
+        0 0 20px $main-item-color,
+        0 0 10px $main-item-color;
+    -webkit-text-stroke: 10px $main-item-color;
+    paint-order: stroke fill;
+}
+
+@mixin typo-h2 {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+@mixin img-home {
+    margin: 64px 0 64px 0;
+    border: 0;
+    outline: 4px solid $main-item-color;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    box-shadow: 0 0 40px $main-item-color;
+}
+
+@mixin typo-btn {
+    position: relative;
+    width: 350px;
+    height: 80px;
+    top: 0;
+    background-color: $main-item-color;
+    border-radius: 100px;
+    border: 0;
+    font-size: 20px;
+    font-family: $main-font;
+    color: $card-color;
+    font-weight: bold;
+    transition: 0.3s ease-out;
+}

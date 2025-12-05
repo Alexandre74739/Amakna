@@ -1,0 +1,35 @@
+@import '../_variables';
+
+.accordeon-container {
+    margin-top: 64px;
+    // Les alignements sont déplacés sur .accordeon-item
+
+    .accordeon-item {
+        cursor: pointer;
+        border-radius: 25px;
+        margin: 40px auto; // Centre l'élément acccordéon-item
+        width: 75%; // L'élément accordéon complet (image + texte) fait 75% de la page
+        // J'ai ajouté un background pour mieux visualiser la zone de 75%
+        background-color: antiquewhite; 
+        
+        // Supprime les styles inutiles (dupliqués) des accordéon-container imbriqués 
+
+        img {
+            width: 100%; // L'image prend 100% de la largeur de .accordeon-item (donc 75% de la page)
+            display: block;
+            border-radius: 25px;
+            transition: 0.3s ease-out;
+
+            // Suppression de l'effet de zoom au survol demandé :
+            &:hover {
+                // transform: scale(1.02); <-- C'est maintenant commenté ou supprimé
+            }
+        }
+
+        p {
+            @include typo-p;
+            text-align: start;
+            width: 100%; // Le paragraphe prend 100% de la largeur de .accordeon-item (donc 75% de la page)
+        }
+    }
+}
