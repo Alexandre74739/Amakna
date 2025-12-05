@@ -7,11 +7,58 @@ import "./Encyclopedie.scss";
 const personnages = [
   { 
     id: 1, 
-    name: "Bolgroth", 
-    image: bolgroth,
+    name: "Nox", 
+    image: pandora,
     story: "Noximilien l’Horloger, obsédé par le Wakfu, cherche désespérément à remonter le temps pour revoir sa famille." 
   },
-  
+  { 
+    id: 2, 
+    name: "Yugo", 
+    image: pandora,
+    story: "Yugo est le dernier représentant des Eliatropes. Maître du Wakfu, il peut ouvrir des portails et manipuler l’énergie." 
+  },
+  { 
+    id: 3, 
+    name: "Amalia", 
+    image: pandora,
+    story: "Princesse Sadida, Amalia protège la nature et ses alliés grâce à sa magie végétale." 
+  },
+  { 
+    id: 4, 
+    name: "Nox", 
+    image: pandora,
+    story: "Noximilien l’Horloger, obsédé par le Wakfu, cherche désespérément à remonter le temps pour revoir sa famille." 
+  },
+  { 
+    id: 5, 
+    name: "Yugo", 
+    image: pandora,
+    story: "Yugo est le dernier représentant des Eliatropes. Maître du Wakfu, il peut ouvrir des portails et manipuler l’énergie." 
+  },
+  { 
+    id: 6, 
+    name: "Amalia", 
+    image: pandora,
+    story: "Princesse Sadida, Amalia protège la nature et ses alliés grâce à sa magie végétale." 
+  },
+  { 
+    id: 7, 
+    name: "Nox", 
+    image: pandora,
+    story: "Noximilien l’Horloger, obsédé par le Wakfu, cherche désespérément à remonter le temps pour revoir sa famille." 
+  },
+  { 
+    id: 8, 
+    name: "Yugo", 
+    image: pandora,
+    story: "Yugo est le dernier représentant des Eliatropes. Maître du Wakfu, il peut ouvrir des portails et manipuler l’énergie." 
+  },
+  { 
+    id: 9, 
+    name: "Amalia", 
+    image: pandora,
+    story: "Princesse Sadida, Amalia protège la nature et ses alliés grâce à sa magie végétale." 
+  },
 ];
 
 function Encyclopedie() {

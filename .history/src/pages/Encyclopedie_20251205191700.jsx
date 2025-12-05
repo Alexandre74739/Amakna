@@ -3,20 +3,15 @@ import Buttons from "../components/Buttons";
 import pandora from "../assets/pandora.png";
 import "./Encyclopedie.scss";
 
-// --- Exemple de données avec histoires ---
+// --- Exemple de données (tu peux les déplacer dans data.js si tu veux) ---
 const personnages = [
-  { 
-    id: 1, 
-    name: "Bolgroth", 
-    image: bolgroth,
-    story: "Noximilien l’Horloger, obsédé par le Wakfu, cherche désespérément à remonter le temps pour revoir sa famille." 
-  },
-  
+  { id: 1, name: "Nox", image: "/images/nox.png" },
+  { id: 2, name: "Yugo", image: "/images/yugo.png" },
+  { id: 3, name: "Amalia", image: "/images/amalia.png" },
 ];
 
 function Encyclopedie() {
   const [search, setSearch] = useState("");
-  const [openId, setOpenId] = useState(null); // id du personnage dont l’histoire est ouverte
 
   const filtered = personnages.filter((perso) =>
     perso.name.toLowerCase().includes(search.toLowerCase())
@@ -29,7 +24,7 @@ function Encyclopedie() {
 
       <img className="pandora" src={pandora} alt="pandora" />
 
-      {/* --- Barre de recherche --- */}
+      {/* --- BARRE DE RECHERCHE --- */}
       <input
         type="text"
         className="search-bar"
@@ -37,25 +32,15 @@ function Encyclopedie() {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      {/* --- Cards + histoires associées --- */}
       <div className="cards-container">
         {filtered.map((item) => (
           <div className="card" key={item.id}>
-            <img
-              src={item.image}
-              alt={item.name}
-              className="perso-img"
-              onClick={() => setOpenId(openId === item.id ? null : item.id)}
-            />
-
-            {/* histoire sous l'image */}
-            {openId === item.id && (
-              <div className="story-box">
-                <p>{item.story}</p>
-              </div>
-            )}
+            <h3>{item.name}</h3>
+            <img src={item.image} alt={item.name} />
           </div>
         ))}
+
+        {filtered.length === 0 && <p>Aucun résultat</p>}
       </div>
 
       <Buttons />

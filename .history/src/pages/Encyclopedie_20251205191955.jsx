@@ -7,16 +7,27 @@ import "./Encyclopedie.scss";
 const personnages = [
   { 
     id: 1, 
-    name: "Bolgroth", 
-    image: bolgroth,
+    name: "Nox", 
+    image: {p},
     story: "Noximilien l’Horloger, obsédé par le Wakfu, cherche désespérément à remonter le temps pour revoir sa famille." 
   },
-  
+  { 
+    id: 2, 
+    name: "Yugo", 
+    image: "/images/yugo.png",
+    story: "Yugo est le dernier représentant des Eliatropes. Maître du Wakfu, il peut ouvrir des portails et manipuler l’énergie." 
+  },
+  { 
+    id: 3, 
+    name: "Amalia", 
+    image: "/images/amalia.png",
+    story: "Princesse Sadida, Amalia protège la nature et ses alliés grâce à sa magie végétale." 
+  },
 ];
 
 function Encyclopedie() {
   const [search, setSearch] = useState("");
-  const [openId, setOpenId] = useState(null); // id du personnage dont l’histoire est ouverte
+  const [selectedStory, setSelectedStory] = useState(null); // histoire affichée
 
   const filtered = personnages.filter((perso) =>
     perso.name.toLowerCase().includes(search.toLowerCase())
@@ -37,26 +48,29 @@ function Encyclopedie() {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      {/* --- Cards + histoires associées --- */}
+      {/* --- FILTRE ET AFFICHAGE DES IMAGES SEULEMENT --- */}
       <div className="cards-container">
         {filtered.map((item) => (
           <div className="card" key={item.id}>
-            <img
-              src={item.image}
-              alt={item.name}
+            <img 
+              src={item.image} 
+              alt={item.name} 
+              onClick={() => setSelectedStory(item.story)} 
               className="perso-img"
-              onClick={() => setOpenId(openId === item.id ? null : item.id)}
             />
-
-            {/* histoire sous l'image */}
-            {openId === item.id && (
-              <div className="story-box">
-                <p>{item.story}</p>
-              </div>
-            )}
           </div>
         ))}
+
+        {filtered.length === 0 && <p>Aucun résultat</p>}
       </div>
+
+      {/* --- Histoire affichée lorsque je clique sur un personnage --- */}
+      {selectedStory && (
+        <div className="story-box">
+          <p>{selectedStory}</p>
+          <button onClick={() => setSelectedStory(null)}>Fermer</button>
+        </div>
+      )}
 
       <Buttons />
     </div>

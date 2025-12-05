@@ -1,0 +1,65 @@
+@import '../_variables';
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        @include typo-h1;
+    }
+
+    h2 {
+        @include typo-h2;
+        margin: 0;
+    }
+
+    .pandora {
+        @include img-home;
+    }
+}
+
+.encyclopedie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-container {
+  width: 100%;
+  max-width: 900px;      // optionnel
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // 3 par ligne fixes
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Chaque card occupe une cellule fixe */
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 10px;
+  border-radius: 10px;
+
+  transition: height 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  max-width: 200px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Le texte d'histoire */
+.card .story {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 8px;
+  line-height: 1.3;
+}

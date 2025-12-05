@@ -7,8 +7,8 @@ import "./Encyclopedie.scss";
 const personnages = [
   { 
     id: 1, 
-    name: "Bolgroth", 
-    image: bolgroth,
+    name: "Nox", 
+    image: pandora,
     story: "Noximilien l’Horloger, obsédé par le Wakfu, cherche désespérément à remonter le temps pour revoir sa famille." 
   },
   

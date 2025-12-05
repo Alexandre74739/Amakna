@@ -8,7 +8,7 @@ const personnages = [
   { 
     id: 1, 
     name: "Bolgroth", 
-    image: bolgroth,
+    image: B,
     story: "Noximilien l’Horloger, obsédé par le Wakfu, cherche désespérément à remonter le temps pour revoir sa famille." 
   },
   
