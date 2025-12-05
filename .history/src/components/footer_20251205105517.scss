@@ -5,12 +5,10 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    background-color: $card-color;
-    width: 100%;
+    background-color: $;
 
     .top-footer {
         display: flex;
         flex-direction: row;
-        
     }
 }
