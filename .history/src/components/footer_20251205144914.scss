@@ -1,0 +1,30 @@
+@import '../_variables';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: $card-color;
+    width: 100%;
+    outline: 4px solid $main-item-color;
+    box-shadow: 0 0 40px $main-item-color;
+
+    .top-footer {
+        display: flex;
+        flex-direction: row;
+
+        .middle-top-footer {
+            
+            img {
+                width: 100%;
+            }
+
+            .footer-nav Link {
+                text-decoration: 0;
+                @include typo-p;
+                gap: 16px;
+            }
+        }
+    }
+}

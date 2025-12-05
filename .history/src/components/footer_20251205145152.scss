@@ -7,21 +7,17 @@
     align-items: center;
     background-color: $card-color;
     width: 100%;
-    padding: 24px 0;
     outline: 4px solid $main-item-color;
     box-shadow: 0 0 40px $main-item-color;
 
     .top-footer {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        gap: 40px;
 
         .middle-top-footer {
-            gap: 8px;
 
             img {
-                width: 75%;
+                width: 100%;
             }
 
             .footer-nav {
@@ -29,39 +25,19 @@
                 gap: 24px;
                 justify-content: center;
                 position: relative;
-                transition: 0.3s ease-out;
+                transition: 0.3s e;
 
                 a {
-                    top: 0;
-                    position: relative;
-                    margin: 0 16px;
                     text-decoration: none;
-                    color: $text-color;
+                    color: white;
                     @include typo-p;
-                    transition: 0.3s ease-out;
+                    transition: 0.2s;
 
                     &:hover {
                         color: $main-item-color;
-                        top: -4px;
-                        text-shadow: 0 0 8px $main-item-color;
                     }
                 }
             }
-
-            button {
-                @include typo-btn;
-                width: 300px;
-                height: 60px;
-                margin-top: 16px;
-
-                &:hover {
-                    box-shadow: 0 0 20px $main-item-color;
-                }
-            }
         }
-    }
-
-    .bottom-footer {
-        @include typo-p;
     }
 }

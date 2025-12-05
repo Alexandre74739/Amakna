@@ -1,0 +1,17 @@
+@import '../_variables';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: $card-color;
+    width: 100%;
+    box-shadow: 4px $main-item-color;
+
+    .top-footer {
+        display: flex;
+        flex-direction: row;
+        
+    }
+}

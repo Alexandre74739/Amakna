@@ -37,7 +37,8 @@
                     margin: 0 16px;
                     text-decoration: none;
                     color: $text-color;
-                    @include typo-p;
+                    font-weight: bold;
+                    @include typo-p
                     transition: 0.3s ease-out;
 
                     &:hover {

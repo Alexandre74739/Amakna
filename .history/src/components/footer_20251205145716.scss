@@ -7,7 +7,6 @@
     align-items: center;
     background-color: $card-color;
     width: 100%;
-    padding: 24px 0;
     outline: 4px solid $main-item-color;
     box-shadow: 0 0 40px $main-item-color;
 
@@ -37,7 +36,9 @@
                     margin: 0 16px;
                     text-decoration: none;
                     color: $text-color;
-                    @include typo-p;
+                    font-weight: bold;
+                    font-size: 20px;
+                    font-weight: bold;
                     transition: 0.3s ease-out;
 
                     &:hover {
@@ -52,16 +53,7 @@
                 @include typo-btn;
                 width: 300px;
                 height: 60px;
-                margin-top: 16px;
-
-                &:hover {
-                    box-shadow: 0 0 20px $main-item-color;
-                }
             }
         }
-    }
-
-    .bottom-footer {
-        @include typo-p;
     }
 }
