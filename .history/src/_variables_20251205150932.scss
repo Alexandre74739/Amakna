@@ -22,31 +22,9 @@ $second-font: "Irish Grover", system-ui;
     paint-order: stroke fill;
 }
 
-@mixin typo-Rh1 {
-    font-size: 64px;
-    font-family: $second-font;
-    text-shadow: 0 0 40px $main-item-color,
-        0 0 30px $main-item-color,
-        0 0 20px $main-item-color,
-        0 0 10px $main-item-color;
-    -webkit-text-stroke: 10px $main-item-color;
-    paint-order: stroke fill;
-}
-
 @mixin typo-h2 {
     font-size: 64px;
     font-weight: bold;
-}
-
-@mixin typo-Rh2 {
-    font-size: 40px;
-    font-family: $second-font;
-    text-shadow: 0 0 40px $main-item-color,
-        0 0 30px $main-item-color,
-        0 0 20px $main-item-color,
-        0 0 10px $main-item-color;
-    -webkit-text-stroke: 10px $main-item-color;
-    paint-order: stroke fill;
 }
 
 @mixin img-home {
@@ -73,20 +51,7 @@ $second-font: "Irish Grover", system-ui;
     transition: 0.3s ease-out;
 }
 
-@mixin typo-Rbtn {
-    position: relative;
-    width: 300px;
-    height: 60px;
-    top: 0;
-    background-color: $main-item-color;
-    border-radius: 100px;
-    border: 0;
-    font-size: 20px;
-    font-family: $main-font;
-    color: $card-color;
-    font-weight: bold;
-    transition: 0.3s ease-out;
-}
+
 
 @mixin typo-p {
     font-size: 20px;

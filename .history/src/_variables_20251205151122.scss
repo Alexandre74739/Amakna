@@ -38,17 +38,6 @@ $second-font: "Irish Grover", system-ui;
     font-weight: bold;
 }
 
-@mixin typo-Rh2 {
-    font-size: 40px;
-    font-family: $second-font;
-    text-shadow: 0 0 40px $main-item-color,
-        0 0 30px $main-item-color,
-        0 0 20px $main-item-color,
-        0 0 10px $main-item-color;
-    -webkit-text-stroke: 10px $main-item-color;
-    paint-order: stroke fill;
-}
-
 @mixin img-home {
     margin: 64px 0 64px 0;
     border: 0;
