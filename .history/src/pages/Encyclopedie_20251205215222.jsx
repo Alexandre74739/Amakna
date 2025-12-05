@@ -39,14 +39,15 @@ function Encyclopedie() {
       {/* Cards */}
       <div className="cards-container">
         {filtered.map((item) => (
-          <div className="card" key={item.id}>
-            <img
-              src={`http://localhost:5000${item.image}`}
-              alt={item.name}
-              onClick={() => navigate(`/personnage/${item.id}`)}
-            />
-          </div>
-        ))}
+  <div className="card" key={item.id}>
+    <img
+      src={item.image}
+      alt={item.name}
+      onClick={() => navigate(`/personnage/${item.id}`)}
+    />
+  </div>
+))}
+
 
         {filtered.length === 0 && <p>Aucun résultat</p>}
       </div>

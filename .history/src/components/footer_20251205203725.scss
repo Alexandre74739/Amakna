@@ -1,0 +1,66 @@
+@import '../_variables';
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: $card-color;
+    width: 100%;
+    padding: 24px 0;
+    outline: 4px solid $main-item-color;
+    box-shadow: 0 0 40px $main-item-color;
+
+    .top-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+
+        .middle-top-footer {
+            gap: 8px;
+
+            img {
+                width: 75%;
+            }
+
+            .footer-nav {
+                display: flex;
+                gap: 24px;
+                justify-content: center;
+                position: relative;
+                transition: 0.3s ease-out;
+
+                a {
+                    top: 0;
+                    position: relative;
+                    margin: 0 16px;
+                    text-decoration: none;
+                    color: $text-color;
+                    @include typo-p;
+                    transition: 0.3s ease-out;
+
+                    &:hover {
+                        color: $main-item-color;
+                        top: -4px;
+                        text-shadow: 0 0 8px $main-item-color;
+                    }
+                }
+            }
+
+            button {
+                @include typo-Rbtn;
+                margin-top: 16px;
+
+                &:hover {
+                    box-shadow: 0 0 20px $main-item-color;
+                    top: -4px;
+                }
+            }
+        }
+    }
+
+    .bottom-footer {
+        @include typo-p;
+    }
+}

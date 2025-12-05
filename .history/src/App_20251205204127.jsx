@@ -10,12 +10,9 @@ import './App.scss';
 function App() {
   return (
     <Router>
-      {/* Header visible sur toutes les pages */}
       <Header />
-
       <div style={{ paddingTop: "150px" }}></div>
 
-      {/* Définition des routes */}
       <Routes>
         <Route path="/" element={<Map />} />
         <Route path="/encyclopedie" element={<Encyclopedie />} />
@@ -24,11 +21,7 @@ function App() {
       </Routes>
 
       <div style={{ paddingTop: "150px" }}></div>
-
-      {/* Footer visible sur toutes les pages */}
-
       <Footer />
-      
     </Router>
   );
 }

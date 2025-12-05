@@ -1,34 +1,34 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Buttons from "../components/Buttons";
 import pandora from "../assets/pandora.png";
 import "./Encyclopedie.scss";
 
+const personnages = [
+  { id: 1, name: "Bolgrot", image: "../assets/persos/bolgrot.png" },
+  { id: 2, name: "Djaul", image: "../assets/persos/djaul.png" },
+  { id: 3, name: "Goultard", image: "../assets/persos/goultard.png" },
+  { id: 4, name: "Harebourg", image: "../assets/persos/harebourg.png" },
+  { id: 5, name: "Joris", image: "../assets/persos/joris.png" },
+  { id: 6, name: "Meriana", image: "../assets/persos/meriana.png" },
+  { id: 7, name: "Ottomai", image: "../assets/persos/ottomai.png" }
+];
+
 function Encyclopedie() {
   const [search, setSearch] = useState("");
-  const [personnages, setPersonnages] = useState([]);
   const navigate = useNavigate();
 
-  // --- Récupération des personnages depuis l'API ---
-  useEffect(() => {
-    fetch("http://localhost:5000/api/personnages")
-      .then((res) => res.json())
-      .then((data) => setPersonnages(data))
-      .catch((err) => console.error("Erreur API :", err));
-  }, []);
-
-  const filtered = personnages.filter((p) =>
-    p.name.toLowerCase().includes(search.toLowerCase())
+  const filtered = personnages.filter((perso) =>
+    perso.name.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
     <div className="encyclopedie">
       <h1>Amakna</h1>
       <h2>Découvrez les mystères du monde et de ses héros</h2>
-      <img className="pandora" src={pandora} alt="pandora" />
-      <Buttons />
 
-      {/* Barre de recherche */}
+      <img className="pandora" src={pandora} alt="pandora" />
+
       <input
         type="text"
         className="search-bar"
@@ -36,20 +36,19 @@ function Encyclopedie() {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      {/* Cards */}
       <div className="cards-container">
         {filtered.map((item) => (
           <div className="card" key={item.id}>
             <img
-              src={`http://localhost:5000${item.image}`}
+              src={item.image}
               alt={item.name}
               onClick={() => navigate(`/personnage/${item.id}`)}
             />
           </div>
         ))}
-
-        {filtered.length === 0 && <p>Aucun résultat</p>}
       </div>
+
+      <Buttons />
     </div>
   );
 }

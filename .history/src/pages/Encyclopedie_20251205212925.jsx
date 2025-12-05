@@ -25,8 +25,8 @@ function Encyclopedie() {
     <div className="encyclopedie">
       <h1>Amakna</h1>
       <h2>Découvrez les mystères du monde et de ses héros</h2>
+
       <img className="pandora" src={pandora} alt="pandora" />
-      <Buttons />
 
       {/* Barre de recherche */}
       <input
@@ -50,6 +50,8 @@ function Encyclopedie() {
 
         {filtered.length === 0 && <p>Aucun résultat</p>}
       </div>
+
+      <Buttons />
     </div>
   );
 }

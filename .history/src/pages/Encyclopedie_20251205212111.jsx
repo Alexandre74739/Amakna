@@ -12,12 +12,12 @@ function Encyclopedie() {
   // --- Récupération des personnages depuis l'API ---
   useEffect(() => {
     fetch("http://localhost:5000/api/personnages")
-      .then((res) => res.json())
-      .then((data) => setPersonnages(data))
-      .catch((err) => console.error("Erreur API :", err));
+      .then(res => res.json())
+      .then(data => setPersonnages(data))
+      .catch(err => console.error("Erreur API :", err));
   }, []);
 
-  const filtered = personnages.filter((p) =>
+  const filtered = personnages.filter(p =>
     p.name.toLowerCase().includes(search.toLowerCase())
   );
 
@@ -25,10 +25,9 @@ function Encyclopedie() {
     <div className="encyclopedie">
       <h1>Amakna</h1>
       <h2>Découvrez les mystères du monde et de ses héros</h2>
-      <img className="pandora" src={pandora} alt="pandora" />
-      <Buttons />
 
-      {/* Barre de recherche */}
+      <img className="pandora" src={pandora} alt="pandora" />
+<Buttons />
       <input
         type="text"
         className="search-bar"
@@ -36,20 +35,19 @@ function Encyclopedie() {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      {/* Cards */}
       <div className="cards-container">
         {filtered.map((item) => (
           <div className="card" key={item.id}>
             <img
-              src={`http://localhost:5000${item.image}`}
+              src={item.image}           // récupéré depuis l'API
               alt={item.name}
               onClick={() => navigate(`/personnage/${item.id}`)}
             />
           </div>
         ))}
-
-        {filtered.length === 0 && <p>Aucun résultat</p>}
       </div>
+
+      
     </div>
   );
 }
