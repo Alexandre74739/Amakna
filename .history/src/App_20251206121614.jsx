@@ -11,8 +11,6 @@ import './App.scss';
 function App() {
   return (
     <Router>
-      {/* Permet un scroll en haut de page au clic*/}
-      <ScrollToTop />
       {/* Header visible sur toutes les pages */}
       <Header />
 
