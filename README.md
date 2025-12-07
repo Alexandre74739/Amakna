@@ -14,12 +14,10 @@ Ce site mêle passion et compétences techniques, tout en respectant l’identit
 ### 🔹 1. Carte interactive des nations
 - 4 nations : **Bonta**, **Brâkmar**, **Amakna**, **Sufokia**
 - Zones cliquables
-- Affichage des événements historiques de chaque nation
-- Redirection vers des personnages liés
 
 ### 🔹 2. Encyclopédie des personnages
 - Minimum **10 fiches complètes**
-- Images, descriptifs, époque, liens internes
+- Images, descriptifs, époque...
 - Navigation fluide et design inspiré d’Ankama
 
 ### 🔹 3. Mini-jeux intégrés
