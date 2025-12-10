@@ -39,10 +39,10 @@ const personnages = [
 
             <p>Mais lorsque Rykke présente Helséphine à Bolgrot, la jalousie du dragon déclenche un drame irréversible...</p>
 
-            <h3>Post mortem</h3>
-            <p>Après sa mort l'esprit de Bolgrot resta piégé entre deux mondes, incapable de se réincarner, car il n'avait pas pondu de Dofus.
-            Il faillit être ressuscité deux fois. La première fois en l'an 492 par Bethel Akarna qui voulait se servir de son esprit pour créer un dofus dont il se serait servi pour libérer Koutoulou.
-            La deuxième fois, ce fut Furye l'une des Gardiennes d'Amakna qui trahit son serment et voulut continuer l'oeuvre de Bethel. Elle fut arrêtée par les autres gardiennes dont sa mère, Mériana, qui dut la tuer. Après sa mort, l'âme de Furye fut emprisonnée en Externam par Bolgrot. </p>`
+            <h2>Post mortem</h2>
+            <p>Après sa mort, l'esprit de Bolgrot resta piégé entre deux mondes, incapable de se réincarner. 
+            Il faillit être ramené à la vie à deux reprises, notamment par Bethel Akarna et plus tard par Furye, 
+            avant d'être définitivement scellé.</p>`
     },
     { id: 2, name: "Djaul", image: "/images/djaul.png" },
     { id: 3, name: "Goultard", image: "/images/goultard.png" },

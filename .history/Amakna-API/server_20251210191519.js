@@ -32,17 +32,18 @@ const personnages = [
             Et ce fut ce qui arriva, car Aguabrial pondit un oeuf qu'il couva, et berça de son souffle magique. Fort heureusement pour le Monde des Douze, la ruse de Djaul fut découverte par Ereziah Melkewel, un ami du dragon et alchimiste de renom, qui emprisonna l'ondine dans des menottes magiques, les paires de "têtes à clic et à clac".
             Furieux d'avoir été trompé, Aguabrial voulut détruire la preuve de sa naïveté, mais tandis qu'Ereziah le raisonnait, l'oeuf vint à éclore : Bolgrot était né. </p>
 
-            <h3>Le terrible dragon</h3>
+            <h2>Le terrible dragon</h2>
             <p>En grandissant, Bolgrot devint un terrible dragon, redouté de tous... Jusqu'à ce qu'un disciple de Iop répondant au nom de Rykke Errel ne vienne le défier. Contre toute attente, le dragon ne déchiqueta pas son adversaire, et préféra s'agenouiller, si bien que les deux devinrent amis.
-            Mais lorsque Rykke présenta sa compagne, Helséphine, au grand dragon, celui-ci la tua, pris de colère et de jalousie. Il s'envola alors au loin, pourchassé par Rykke Errel, et cette chasse s'acheva sur un combat fratricide, en l'an 130, dont ni l'un, ni l'autre ne ressortirent vivants.
-            On découvrit alors, peu après les événements, l'origine de la rage du dragon : dans son ventre se trouvaient les six Dofus primordiaux. Les sages prirent alors la décision de séparer les oeufs, et de les garder dans le plus grand secret. </p>
+Mais lorsque Rykke présenta sa compagne, Helséphine, au grand dragon, celui-ci la tua, pris de colère et de jalousie. Il s'envola alors au loin, pourchassé par Rykke Errel, et cette chasse s'acheva sur un combat fratricide, en l'an 130, dont ni l'un, ni l'autre ne ressortirent vivants.
+
+On découvrit alors, peu après les événements, l'origine de la rage du dragon : dans son ventre se trouvaient les six Dofus primordiaux. Les sages prirent alors la décision de séparer les oeufs, et de les garder dans le plus grand secret. </p>
 
             <p>Mais lorsque Rykke présente Helséphine à Bolgrot, la jalousie du dragon déclenche un drame irréversible...</p>
 
-            <h3>Post mortem</h3>
-            <p>Après sa mort l'esprit de Bolgrot resta piégé entre deux mondes, incapable de se réincarner, car il n'avait pas pondu de Dofus.
-            Il faillit être ressuscité deux fois. La première fois en l'an 492 par Bethel Akarna qui voulait se servir de son esprit pour créer un dofus dont il se serait servi pour libérer Koutoulou.
-            La deuxième fois, ce fut Furye l'une des Gardiennes d'Amakna qui trahit son serment et voulut continuer l'oeuvre de Bethel. Elle fut arrêtée par les autres gardiennes dont sa mère, Mériana, qui dut la tuer. Après sa mort, l'âme de Furye fut emprisonnée en Externam par Bolgrot. </p>`
+            <h2>Post mortem</h2>
+            <p>Après sa mort, l'esprit de Bolgrot resta piégé entre deux mondes, incapable de se réincarner. 
+            Il faillit être ramené à la vie à deux reprises, notamment par Bethel Akarna et plus tard par Furye, 
+            avant d'être définitivement scellé.</p>`
     },
     { id: 2, name: "Djaul", image: "/images/djaul.png" },
     { id: 3, name: "Goultard", image: "/images/goultard.png" },

@@ -17,7 +17,7 @@ function PersonnageDetail() {
         setPersonnage(found);
       })
       .catch((err) => console.error("Erreur API :", err));
-  }, [name]);
+  }, [id]);
 
   if (!personnage) return <p>Chargement ou personnage introuvable...</p>;
 

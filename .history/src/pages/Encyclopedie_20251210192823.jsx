@@ -9,7 +9,7 @@ function Encyclopedie() {
   const [personnages, setPersonnages] = useState([]);
   const navigate = useNavigate();
 
-  // Récupération des personnages depuis l'API
+  // --- Récupération des personnages depuis l'API
   useEffect(() => {
     fetch("http://localhost:5000/api/personnages")
       .then((res) => res.json())
@@ -43,7 +43,7 @@ function Encyclopedie() {
             <img
               src={`http://localhost:5000${item.image}`}
               alt={item.name}
-              onClick={() => navigate(`/encyclopedie/${item.name}`)}
+              onClick={() => navigate(`/personnage/${item.id}`)}
             />
           </div>
         ))}

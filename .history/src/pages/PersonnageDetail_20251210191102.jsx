@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./PersonnageDetail.scss";
 
 function PersonnageDetail() {
-  const { name } = useParams();
+  const { id } = useParams();
   const navigate = useNavigate();
   const [personnage, setPersonnage] = useState(null);
 
@@ -12,18 +12,18 @@ function PersonnageDetail() {
     fetch("http://localhost:5000/api/personnages")
       .then((res) => res.json())
       .then((data) => {
-        // On cherche le personnage dont le name correspond à l'URL
-        const found = data.find((p) => p.name.toLowerCase() === name.toLowerCase());
+        const found = data.find((p) => p.id === parseInt(id));
         setPersonnage(found);
       })
       .catch((err) => console.error("Erreur API :", err));
-  }, [name]);
+  }, [id]);
 
   if (!personnage) return <p>Chargement ou personnage introuvable...</p>;
 
   return (
     <div className="personnage-detail">
       <h1>{personnage.name}</h1>
+
 
       {/* Contenu principal */}
       <div className="detail-content">
@@ -40,16 +40,6 @@ function PersonnageDetail() {
       <button className="back-button" onClick={() => navigate("/encyclopedie")}>
         ← Retour à l'Encyclopédie
       </button>
-
-      {/* Description du personnage */}
-      <div className="decription-container">
-        {personnage.description && (
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: personnage.description }}
-          />
-        )}
-      </div>
     </div>
   );
 }

@@ -43,7 +43,7 @@ function Encyclopedie() {
             <img
               src={`http://localhost:5000${item.image}`}
               alt={item.name}
-              onClick={() => navigate(`/encyclopedie/${item.name}`)}
+              onClick={() => navigate(`/${item.name}`)}
             />
           </div>
         ))}
