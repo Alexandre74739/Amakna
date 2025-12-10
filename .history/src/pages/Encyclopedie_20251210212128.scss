@@ -1,0 +1,81 @@
+@import '../_variables';
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        @include typo-h1;
+    }
+
+    h2 {
+        @include typo-h2;
+        margin: 0;
+    }
+
+    .bottom-h2 {
+        margin: 64px
+    }
+
+    .pandora {
+        @include img-home;
+    }
+
+    .input-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        max-width: 920px;
+
+        .search-bar {
+            width: 100%;
+            height: 80px;
+            padding-left: 96px;
+            border-radius: 100px;
+            border: 1px solid $card-color;
+            background-color: rgba(247, 250, 252, 0.5);
+            color: #F7FAFC;
+            font-family: $main-font;
+            font-size: 32px;
+            font-weight: bold;
+            outline: none;
+
+            &::placeholder {
+                color: #F7FAFC;
+                font-family: $main-font;
+            }
+        }
+
+        img {
+            position: absolute;
+            left: 24px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 60px;
+            height: 60px;
+            pointer-events: none;
+        }
+    }
+
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 88px;
+
+        .card {
+            flex: 0 0 calc(33.33% - 24px);
+            border-radius: 100%;
+            cursor: pointer;
+            transition: 0.3s ease-out;
+
+            &:hover {
+                transform: scale(1.02);
+                box-shadow: 0 0 20px $main-item-color;
+            }
+        }
+    }
+
+}

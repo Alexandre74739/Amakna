@@ -1,0 +1,41 @@
+@import '../_variables';
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        @include typo-h1;
+    }
+
+    h2 {
+        @include typo-h2;
+        margin: 0;
+    }
+
+    .pandora {
+        @include img-home;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+
+        .card {
+            flex: 0 0 calc(33.33% - 24px);
+            border-radius: 100%;
+            cursor: pointer;
+            transition: 0.3s ease-out;
+            
+
+            &:hover {
+                transform: scale(1.02);
+                box-shadow: 0 0 20px $main-item-color;
+            }
+        }
+    }
+
+}

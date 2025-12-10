@@ -1,0 +1,68 @@
+@import '../_variables';
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        @include typo-h1;
+    }
+
+    h2 {
+        @include typo-h2;
+        margin: 0;
+    }
+
+    .pandora {
+        @include img-home;
+    }
+
+    input {
+        position: relative;
+        display: inline-block;
+
+        .search-bar {
+            padding-left: 40px;
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid $card-color;
+            font-size: 16px;
+
+            &::placeholder {
+                color: #aaa;
+            }
+        }
+
+        &::before {
+            content: url('/loupe.png');
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 88px;
+
+        .card {
+            flex: 0 0 calc(33.33% - 24px);
+            border-radius: 100%;
+            cursor: pointer;
+            transition: 0.3s ease-out;
+
+            &:hover {
+                transform: scale(1.02);
+                box-shadow: 0 0 20px $main-item-color;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,44 @@
+.decription-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f8f6f0; // couleur claire pour le fond
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  .description {
+    font-family: "Georgia", serif;
+    color: #333;
+    line-height: 1.6;
+
+    h2 {
+      font-size: 2rem;
+      color: #8b0000; // rouge sombre pour Histoire
+      margin-bottom: 10px;
+      border-bottom: 2px solid #8b0000;
+      padding-bottom: 5px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: #444;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      border-left: 5px solid #ffa500; // ligne orange à gauche
+      padding-left: 10px;
+    }
+
+    p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    a {
+      color: #0066cc;
+      text-decoration: underline;
+    }
+  }
+}

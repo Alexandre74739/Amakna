@@ -1,0 +1,74 @@
+@import '../_variables';
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        @include typo-h1;
+    }
+
+    h2 {
+        @include typo-h2;
+        margin: 0;
+    }
+
+    .pandora {
+        @include img-home;
+    }
+
+    .input-container {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+
+        .search-bar {
+            width: 100%;
+            padding-left: 40px; // espace pour la loupe
+            height: 40px;
+            border-radius: 20px;
+            border: 1px solid $card-color;
+            background-color: rgba(247, 250, 252, 0.5);
+            color: #F7FAFC; // texte du input
+            font-family: $main-font;
+            font-size: 16px;
+            outline: none;
+
+            &::placeholder {
+                color: #F7FAFC;
+                font-family: $main-font;
+            }
+        }
+
+        img {
+            position: absolute;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            pointer-events: none;
+        }
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 88px;
+
+        .card {
+            flex: 0 0 calc(33.33% - 24px);
+            border-radius: 100%;
+            cursor: pointer;
+            transition: 0.3s ease-out;
+
+            &:hover {
+                transform: scale(1.02);
+                box-shadow: 0 0 20px $main-item-color;
+            }
+        }
+    }
+
+}
