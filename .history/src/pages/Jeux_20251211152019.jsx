@@ -14,9 +14,7 @@ function Jeux() {
       <Buttons />
 
       <div className="games-container">
-        {games.map((game) => (
-          <GameCard key={game.id} game={game} />
-        ))}
+        
       </div>
     </div>
   );
