@@ -56,12 +56,13 @@ function Memory() {
 
       setTimeout(() => {
         setFlipped([]);
-      }, 900);
+      }, 800);
     }
   };
 
   return (
     <div className="memory-game">
+      <h2>Memory</h2>
 
       <div className="grid">
         {cards.map((card) => {

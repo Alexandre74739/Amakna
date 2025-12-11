@@ -11,13 +11,13 @@ import meriana from "../assets/memory/meriana.png";
 function Memory() {
   // Cartes du jeu (tout est inclus ici)
   const cardsData = [
-    { id: 1, icon: "🔥" },
-    { id: 2, icon: "💧" },
-    { id: 3, icon: "🌿" },
-    { id: 4, icon: "⚡" },
-    { id: 5, icon: "🪨" },
-    { id: 6, icon: "✨" }
-  ];
+  { id: 1, icon: bolgrot },
+  { id: 2, icon: djaul },
+  { id: 3, icon: goultard },
+  { id: 4, icon: harebourg },
+  { id: 5, icon: joris },
+  { id: 6, icon: meriana }
+];
 
   const [cards, setCards] = useState([]);
   const [flipped, setFlipped] = useState([]);
@@ -56,12 +56,13 @@ function Memory() {
 
       setTimeout(() => {
         setFlipped([]);
-      }, 900);
+      }, 800);
     }
   };
 
   return (
     <div className="memory-game">
+      <h2>Memory</h2>
 
       <div className="grid">
         {cards.map((card) => {
@@ -76,7 +77,9 @@ function Memory() {
             >
               <div className="inner">
                 <div className="front">❓</div>
-                <div className="back">{card.icon}</div>
+                <div className="back">
+                    <img src={card.icon} alt="memory card" />
+                </div>
               </div>
             </div>
           );

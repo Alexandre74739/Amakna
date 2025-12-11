@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import "./Memory.scss";
 import bolgrot from "../assets/memory/bolgrot.png";
-import djaul from "../assets/memory/djaul.png";
-import goultard from "../assets/memory/goultard.png";
-import harebourg from "../assets/memory/harebourg.png";
-import joris from "../assets/memory/joris.png";
-import meriana from "../assets/memory/meriana.png";
+import img2 from "../assets/memory/dofus-2.png";
+import img3 from "../assets/memory/dofus-3.png";
+import img4 from "../assets/memory/dofus-4.png";
+import img5 from "../assets/memory/dofus-5.png";
+import img6 from "../assets/memory/dofus-6.png";
 
 
 function Memory() {
@@ -56,12 +56,13 @@ function Memory() {
 
       setTimeout(() => {
         setFlipped([]);
-      }, 900);
+      }, 800);
     }
   };
 
   return (
     <div className="memory-game">
+      <h2>Memory</h2>
 
       <div className="grid">
         {cards.map((card) => {

@@ -56,7 +56,7 @@ function Memory() {
 
       setTimeout(() => {
         setFlipped([]);
-      }, 900);
+      }, 100);
     }
   };
 

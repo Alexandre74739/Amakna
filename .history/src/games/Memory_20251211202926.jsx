@@ -1,12 +1,5 @@
 import { useEffect, useState } from "react";
 import "./Memory.scss";
-import bolgrot from "../assets/memory/bolgrot.png";
-import djaul from "../assets/memory/djaul.png";
-import goultard from "../assets/memory/goultard.png";
-import harebourg from "../assets/memory/harebourg.png";
-import joris from "../assets/memory/joris.png";
-import meriana from "../assets/memory/meriana.png";
-
 
 function Memory() {
   // Cartes du jeu (tout est inclus ici)
@@ -56,12 +49,13 @@ function Memory() {
 
       setTimeout(() => {
         setFlipped([]);
-      }, 900);
+      }, 800);
     }
   };
 
   return (
     <div className="memory-game">
+      <h2>Memory</h2>
 
       <div className="grid">
         {cards.map((card) => {
