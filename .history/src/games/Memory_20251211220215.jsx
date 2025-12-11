@@ -47,17 +47,16 @@ function Memory() {
     return (
         <div className="memory-game">
             <div className="buttons">
-                <button
-                    className="btn1"
+                <button 
+                className="btn1"
                     onClick={initializeDeck}
-                >
-                    Recommencer
+                    >
+                        Recommencer
                 </button>
-                <button
-                className="btn2"
+                <button 
                     onClick={() => navigate("/jeux")}
-                >
-                    Retour aux jeux
+                    >
+                        Retour aux jeux
                 </button>
             </div>
 

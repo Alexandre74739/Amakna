@@ -1,3 +1,4 @@
+// src/games/Memory.jsx
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import bolgrot from "../assets/memory/bolgrot.png";
@@ -10,22 +11,18 @@ import './Memory.scss';
 
 function Memory() {
     const images = [bolgrot, djaul, goultard, harebourg, joris, meriana];
+
+    // Deck de 12 cartes (chaque image en double)
     const [cards, setCards] = useState([]);
     const [flipped, setFlipped] = useState([]);
     const [matched, setMatched] = useState([]);
     const navigate = useNavigate();
-
-    const initializeDeck = () => {
+    
+    useEffect(() => {
         const deck = [...images, ...images]
             .map((img, index) => ({ id: index + "-" + img, img }))
             .sort(() => Math.random() - 0.5);
         setCards(deck);
-        setFlipped([]);
-        setMatched([]);
-    };
-
-    useEffect(() => {
-        initializeDeck();
     }, []);
 
     const handleFlip = (index) => {
@@ -46,30 +43,11 @@ function Memory() {
 
     return (
         <div className="memory-game">
-            <div className="buttons">
-                <button
-                    className="btn1"
-                    onClick={initializeDeck}
-                >
-                    Recommencer
-                </button>
-                <button
-                className="btn2"
-                    onClick={() => navigate("/jeux")}
-                >
-                    Retour aux jeux
-                </button>
-            </div>
-
             <div className="cards-container">
                 {cards.map((card, index) => {
                     const isFlipped = flipped.includes(index) || matched.includes(index);
                     return (
-                        <div
-                            key={card.id}
-                            className="card"
-                            onClick={() => handleFlip(index)}
-                        >
+                        <div key={card.id} className="card" onClick={() => handleFlip(index)}>
                             <div className={`card-inner ${isFlipped ? "flipped" : ""}`}>
                                 <div className="card-front">?</div>
                                 <div className="card-back">

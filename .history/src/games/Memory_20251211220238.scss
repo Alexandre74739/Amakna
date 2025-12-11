@@ -8,21 +8,14 @@
     display: flex;
     flex-direction: row;
 
-    .btn2 {
-        background-color: $second-item-color;
-
-        &:hover {
-            box-shadow: 0 0 20px $tertiary-item-color;
-        }
-    }
+    
   }
 
   .cards-container {
     display: grid;
-    justify-items: center;
     grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    margin: 64px 0 0 0;
+    gap: 20px;
+    justify-items: center;
 
     @media (max-width: 1200px) {
       grid-template-columns: repeat(3, 1fr);

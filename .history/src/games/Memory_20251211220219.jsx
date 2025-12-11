@@ -54,7 +54,6 @@ function Memory() {
                     Recommencer
                 </button>
                 <button
-                className="btn2"
                     onClick={() => navigate("/jeux")}
                 >
                     Retour aux jeux
