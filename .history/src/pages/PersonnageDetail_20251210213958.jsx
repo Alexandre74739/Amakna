@@ -38,11 +38,13 @@ function PersonnageDetail() {
 
       {/* Breadcrumb */}
       <button
-        className="back-button"
-        onClick={() => navigate("/encyclopedie")}>
-        Retour à l'Encyclopédie
-      </button>
-
+  className="back-button"
+  onClick={() =>
+    navigate("/encyclopedie", { state: { search: personnage.name } })
+  }
+>
+  Retour à l'Encyclopédie
+</button>
       {/* Description du personnage */}
       <div className="decription-container">
         {personnage.description && (

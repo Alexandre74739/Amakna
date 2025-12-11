@@ -35,7 +35,8 @@ const personnages = [
             <h3>Le terrible dragon</h3>
             <p>En grandissant, Bolgrot devint un terrible dragon, redouté de tous... Jusqu'à ce qu'un disciple de Iop répondant au nom de Rykke Errel ne vienne le défier. Contre toute attente, le dragon ne déchiqueta pas son adversaire, et préféra s'agenouiller, si bien que les deux devinrent amis.
             Mais lorsque Rykke présenta sa compagne, Helséphine, au grand dragon, celui-ci la tua, pris de colère et de jalousie. Il s'envola alors au loin, pourchassé par Rykke Errel, et cette chasse s'acheva sur un combat fratricide, en l'an 130, dont ni l'un, ni l'autre ne ressortirent vivants.
-            On découvrit alors, peu après les événements, l'origine de la rage du dragon : dans son ventre se trouvaient les six Dofus primordiaux. Les sages prirent alors la décision de séparer les oeufs, et de les garder dans le plus grand secret. Mais lorsque Rykke présente Helséphine à Bolgrot, la jalousie du dragon déclenche un drame irréversible...</p>
+            On découvrit alors, peu après les événements, l'origine de la rage du dragon : dans son ventre se trouvaient les six Dofus primordiaux. Les sages prirent alors la décision de séparer les oeufs, et de les garder dans le plus grand secret. </p>
+            Mais lorsque Rykke présente Helséphine à Bolgrot, la jalousie du dragon déclenche un drame irréversible...
 
             <h3>Post mortem</h3>
             <p>Après sa mort l'esprit de Bolgrot resta piégé entre deux mondes, incapable de se réincarner, car il n'avait pas pondu de Dofus.

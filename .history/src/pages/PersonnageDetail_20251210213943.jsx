@@ -39,7 +39,7 @@ function PersonnageDetail() {
       {/* Breadcrumb */}
       <button
         className="back-button"
-        onClick={() => navigate("/encyclopedie")}>
+        onClick={() => navigate("/encyclopedie", { state: { search: personnage.name } )>
         Retour à l'Encyclopédie
       </button>
 

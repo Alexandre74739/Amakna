@@ -1,0 +1,56 @@
+@import '../_variables';
+
+button {
+    @include typo-btn;
+    margin: 32px;
+
+    &:hover {
+        top: -4px;
+        box-shadow: 0 0 20px $main-item-color;
+    }
+}
+
+.decription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+    padding: 24px;
+    background-color: $card-color;
+    border-radius: 20px;
+    max-width: 75%;
+    text-align: left; // FORCE l’alignement du texte
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    font-family: $main-font; // meilleure cohérence que Georgia
+    color: $text-color;
+    width: 100%; // éviter tout décalage interne
+
+    h2, h3, p {
+        text-align: left;
+        margin-left: 0;   // supprime tout décalage résiduel
+        padding-left: 0;  // supprime le décalage de h3
+    }
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: $main-item-color;
+        border-bottom: 2px solid $main-item-color;
+        padding-bottom: 4px;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        color: $main-item-color;
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-size: 1rem;
+    }
+}

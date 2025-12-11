@@ -1,0 +1,12 @@
+@import '../_variables';
+
+button {
+    @include typo-btn;
+    margin: 32px;
+
+    &:hover {
+        top: -4px;
+        box-shadow: 0 0 20px $main-item-color;
+    }
+}
+

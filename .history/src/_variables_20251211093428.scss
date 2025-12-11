@@ -38,10 +38,7 @@ $second-font: "Irish Grover", system-ui;
     font-weight: bold;
 }
 
-@mixin typo-h3 {
-    font-size: 32px;
-    font-weight: bold;
-}
+@mixin typo
 
 @mixin typo-Rh2 {
     font-size: 40px;

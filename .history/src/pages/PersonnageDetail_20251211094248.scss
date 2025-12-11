@@ -21,12 +21,13 @@ button {
 
     h2,
     h3 {
+        sty
         color: $main-item-color;
+        margin-bottom: 0
     }
 
     h3 {
         @include typo-h3;
-        margin: 64px 0 0 0;
     }
 
     p {

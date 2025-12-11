@@ -1,0 +1,50 @@
+@import '../_variables';
+
+button {
+        @include typo-btn;
+        margin: 32px;
+
+        &:hover {
+            top: -4px;
+            box-shadow: 0 0 20px $main-item-color;
+        }
+    }
+
+.decription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 32px;
+    padding: 24px;
+    background-color: $card-color;
+    border-radius: 20px;
+    max-width: 75%;    
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-items: start;
+        font-family: "Georgia", serif;
+        color: $text-color;
+
+        h2,
+        h3 {
+            text-align: ;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: $main-item-color;
+        }
+
+        h2 {
+            border-bottom: 2px solid $main-item-color;
+        }
+
+        h3 {
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+}

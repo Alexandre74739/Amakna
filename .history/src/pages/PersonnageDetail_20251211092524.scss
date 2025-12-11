@@ -1,0 +1,61 @@
+@import '../_variables';
+
+button {
+        @include typo-btn;
+        margin: 32px;
+
+        &:hover {
+            top: -4px;
+            box-shadow: 0 0 20px $main-item-color;
+        }
+    }
+
+.decription-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: $card-color;
+    border-radius: 20px;
+    max-width: 75%;
+    margin-left: 0;
+
+    // Force l’alignement gauche
+    text-align: left;
+
+    .description {
+    display: flex;
+    flex-direction: column;
+    text-align: left; // Texte aligné à gauche
+    font-family: $main-font; // Police rétablie
+    color: $text-color;
+
+    h2, h3, p {
+        font-family: $main-font; // Forçage de la police
+        text-align: left;
+    }
+
+    h2 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: $main-item-color;
+        border-bottom: 2px solid $main-item-color; // Soulignage restauré
+        padding-bottom: 5px;
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        color: $main-item-color;
+    }
+
+    p {
+        margin-bottom: 15px;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
+
+}

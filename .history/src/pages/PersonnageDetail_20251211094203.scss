@@ -19,17 +19,17 @@ button {
     border-radius: 20px;
     max-width: 75%;
 
-    h2,
-    h3 {
-        color: $main-item-color;
-    }
+        h2, h3 {
+            color: $main-item-color;
+            margin-bottom: 0
+        }
 
-    h3 {
-        @include typo-h3;
-        margin: 64px 0 0 0;
-    }
+        h3 {
+            @include typo-h3;
+        }
 
-    p {
-        @include typo-p;
+        p {
+            @include typo-p;
+        }
     }
 }

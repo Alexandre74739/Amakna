@@ -13,6 +13,7 @@ button {
 .decription-container {
     display: flex;
     flex-direction: column;
+    align-items: ;
     margin-top: 32px;
     padding: 24px;
     background-color: $card-color;
@@ -22,11 +23,11 @@ button {
     h2,
     h3 {
         color: $main-item-color;
+        margin-bottom: 0
     }
 
     h3 {
         @include typo-h3;
-        margin: 64px 0 0 0;
     }
 
     p {
