@@ -6,16 +6,16 @@ const games = [
     route: "/jeux/memory"
   },
   {
-    id: "bouf-le-bouftou",
+    id: "pacman",
     title: "Bouf le Bouftou",
     description: "Bouf le bouftou avant que le bouftou te bouffe.",
     route: "/jeux/bouf-le-bouftou"
   },
   {
-    id: "space-necrome",
-    title: "Space Necrome",
+    id: "space-invader",
+    title: "Space Necrom",
     description: "Défends le Krosmoz contre les nécromes !",
-    route: "/jeux/space-necrome"
+    route: "/jeux/space-necrom"
   }
 ];
 

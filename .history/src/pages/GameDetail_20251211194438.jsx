@@ -1,0 +1,38 @@
+import { useParams } from "react-router-dom";
+import games from "../data/games";
+import Memory from "../games/Memory";
+import Pacman from "../games/Pacman";
+import SpaceInvader from "../games/bouf-le-bouftou";
+
+function GameDetail() {
+    const { gameId } = useParams();
+    const game = games.find(g => g.id === gameId);
+
+    if (!game) return <h2>Jeu non trouvé !</h2>;
+
+    let GameComponent;
+    switch (game.id) {
+        case "memory":
+            GameComponent = Memory;
+            break;
+        case "bouf-le-bouftou":
+            GameComponent = Pacman;
+            break;
+        case "space-necrom":
+            GameComponent = SpaceInvader;
+            break;
+        default:
+            return <h2>Jeu non disponible</h2>;
+    }
+
+
+    return (
+        <div>
+            <h1>{game.title}</h1>
+            <p>{game.description}</p>
+            <GameComponent />
+        </div>
+    );
+}
+
+export default GameDetail;

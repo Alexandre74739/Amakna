@@ -13,7 +13,7 @@ const games = [
   },
   {
     id: "space-necrome",
-    title: "Space Necrome",
+    title: "Space Necrom",
     description: "Défends le Krosmoz contre les nécromes !",
     route: "/jeux/space-necrome"
   }

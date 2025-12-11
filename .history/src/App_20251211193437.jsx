@@ -6,7 +6,6 @@ import Map from './pages/Map';
 import Encyclopedie from './pages/Encyclopedie';
 import PersonnageDetail from './pages/PersonnageDetail';
 import Jeux from './pages/Jeux';
-import GameDetail from './pages/GameDetail';
 import './App.scss';
 
 function App() {
@@ -25,7 +24,9 @@ function App() {
         <Route path="/encyclopedie" element={<Encyclopedie />} />
         <Route path="/encyclopedie/:name" element={<PersonnageDetail />} />
         <Route path="/jeux" element={<Jeux />} />
-        <Route path="/jeux/:id" element={<GameDetail />} />
+        <Route path="/jeux/memory" element={<Memory />} />
+<Route path="/jeux/pacman" element={<Pacman />} />
+<Route path="/jeux/space-invader" element={<SpaceInvader />} />
       </Routes>
 
       <div style={{ paddingTop: "150px" }}></div>
@@ -33,7 +34,7 @@ function App() {
       {/* Footer visible sur toutes les pages */}
 
       <Footer />
-
+      
     </Router>
   );
 }

@@ -25,7 +25,7 @@ function App() {
         <Route path="/encyclopedie" element={<Encyclopedie />} />
         <Route path="/encyclopedie/:name" element={<PersonnageDetail />} />
         <Route path="/jeux" element={<Jeux />} />
-        <Route path="/jeux/:id" element={<GameDetail />} />
+        <Route path="/jeux/:gameId" element={<GameDetail />} />
       </Routes>
 
       <div style={{ paddingTop: "150px" }}></div>
