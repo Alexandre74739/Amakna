@@ -47,10 +47,10 @@ function Memory() {
                     return (
                         <div key={card.id} className="card" onClick={() => handleFlip(index)}>
                             <div className={`card-inner ${isFlipped ? "flipped" : ""}`}>
-                                <div className="card-front">?</div>
+                                <div className="card-front">?</div> {/* face avant = ? */}
                                 <div className="card-back">
                                     <img src={card.img} alt="card" />
-                                </div>
+                                </div> {/* face arrière = image */}
                             </div>
                         </div>
                     );

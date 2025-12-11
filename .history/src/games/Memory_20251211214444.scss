@@ -40,31 +40,31 @@
         }
       }
 
-      .card-front,
-      .card-back {
+      .card-front, .card-back {
         position: absolute;
         width: 100%;
         height: 100%;
         backface-visibility: hidden;
         border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 80px;
+        font
       }
 
       .card-front {
-        background-color: $card-color;
-      }
-
-      .card-back {
-        transform: rotateY(180deg);
+        
         img {
           width: 100%;
           height: 100%;
           object-fit: cover;
           border-radius: 50%;
         }
+      }
+
+      .card-back {
+        background-color: $card-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
       }
     }
   }

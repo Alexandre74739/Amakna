@@ -45,18 +45,21 @@ function Memory() {
                 {cards.map((card, index) => {
                     const isFlipped = flipped.includes(index) || matched.includes(index);
                     return (
-                        <div key={card.id} className="card" onClick={() => handleFlip(index)}>
+                        <div
+                            key={card.id}
+                            className="card"
+                            onClick={() => handleFlip(index)}
+                        >
                             <div className={`card-inner ${isFlipped ? "flipped" : ""}`}>
-                                <div className="card-front">?</div>
-                                <div className="card-back">
+                                <div className="card-front">
                                     <img src={card.img} alt="card" />
                                 </div>
+                                <div className="card-back">?</div>
                             </div>
                         </div>
                     );
                 })}
             </div>
-
         </div>
     );
 }
