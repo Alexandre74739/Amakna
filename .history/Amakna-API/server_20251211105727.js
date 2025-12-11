@@ -448,10 +448,10 @@ const personnages = [
     `
     },
     {
-        id: 10,
-        name: "Ush Galesh",
-        image: "/images/ush.png",
-        description: `
+    id: 10,
+    name: "Ush Galesh",
+    image: "/images/ush.png",
+    description: `
         <h2>Histoire</h2>
 
         <h3>Famille</h3>
@@ -488,7 +488,8 @@ const personnages = [
         La confrérie attaque Ush pour s'emparer de la clé mais l’Ecaflip empêche l’Eliatrope d’utiliser ses portails.
         Cependant, grâce à l’intervention d’Elely, Yugo peut à nouveau recourir à ses portails et s'empare de la clé lui permettant de se rendre à l’étage suivant.</p>
     `
-    }
+}
+
 ];
 
 // Route pour la liste complète

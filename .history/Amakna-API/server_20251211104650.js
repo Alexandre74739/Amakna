@@ -405,6 +405,13 @@ const personnages = [
             La Main de la Déesse Pandawa est toutefois la clé de la réunification des deux dragons.
             En effet, en faisant tourner le Wukin et le Wukang dans la paume de sa main, Pandawa peut de nouveau réunir les deux dragons en un seul.</p>
 
+            <h3>Surnoms</h3>
+            <ul>
+                <li>La Soif Éternelle</li>
+                <li>La Reine des Chopes
+                <li>La Dame aux Bambous
+            La Grande Ourse qui Mousse</ul>
+
             <h3>Ses commandements</h3>
             <p>Tu ne poutreras pas ton voisin alors qu'il boit son verre avec une paille, tu risquerais de la lui mettre dans l'œil.
             Tu te serviras d'un éventail pour brasser de l'air.
@@ -419,76 +426,8 @@ const personnages = [
             Si tu ne suis pas ces préceptes, tu devras boire 5 litres d'eau pure en signe de pénitence.</p>
         `
     },
-    {
-        id: 9,
-        name: "Déesse Sacrieur",
-        image: "/images/sacrieur.png",
-        description: `
-        <h2>Histoire</h2>
-
-        <h3>Rôle et pouvoir</h3>
-        <p>Sacrieur est la Déesse de la douleur et du sacrifice.
-        Elle est aussi l'une des Douze Dieux Majeurs.
-        Elle subit les blessures de ses disciples, les Sacrieurs, à leur place et leur octroie une force monstrueuse en échange.
-        Ainsi, ils n’hésitent pas à se prendre les coups pour retourner la situation contre leurs adversaires.
-        L’une des dernières arrivées au Panthéon des Dieux, Sacrieur est belle, rebelle et un brin opportuniste.
-        Les souffrances qui lui sont infligées, elle les endure tout en restant sereine.
-        Paradoxalement, elle ne supporte pas que les êtres vivants souffrent et ses élans miséricordieux envers les faibles et les opprimés sont souvent suivis d’une colère vengeresse envers les forts et les oppresseurs.
-        Sa grande beauté et son art consommé du combat en font une déesse vénérée avec ferveur.
-        Elle apparaît parfois sur les champs de bataille lorsqu’ils sont désertés et vient verser une larme de compassion sur la terre gorgée du sang des vaincus.</p>
-
-        <h3>Accession au Panthéon</h3>
-        <p>La déesse Sacrieur accède au Panthéon le premier Flovor de l'an 11.
-        Cette accession survient après que de grands froids aient rythmé le mois de Javian.
-        En effet, le démon Djaul, furieux de son échec face à Aguabrial, venait d'éliminer Solar, le protecteur de Javian, et faisait durer ses tempêtes hivernales.
-        Se tournant vers les autres dieux, mais n'en recevant aucune réponse, les habitants du Monde des Dix se tournent vers une nouvelle figure de compassion : la déesse Sacrieur.
-        Ses fidèles se multipliant, Sacrieur rejoint les dix Dieux en place, malgré la fureur de Rushu, qui voit là une usurpation.
-        Qu'importe, le Monde des Dix devient le Monde des Onze.
-        Cette accession au Panthéon est commémorée chaque 1er Flovor à l'occasion de la Pleurnichouille, sous l'égide de Tolgnas.</p>
-    `
-    },
-    {
-        id: 10,
-        name: "Ush Galesh",
-        image: "/images/ush.png",
-        description: `
-        <h2>Histoire</h2>
-
-        <h3>Famille</h3>
-        <p>Ush Galesh est l'un des enfants d'Ecaflip, ce qui en fait le demi-frère de Kerubim Crépin, Atcham, Domino et Cendre.
-        Malgré ses liens familiaux, Ush n’éprouve aucune envie de considérer ses demi-frères comme sa famille et méprise son père, estimant que ce dernier n’a jamais rien fait en sa faveur.
-        Cette haine envers Ecaflip le pousse à intégrer la Fratrie des Oubliés, dont l’ambition de remplacer les dieux par leurs enfants délaissés semble lui correspondre.
-        Ush déteste probablement Kerubim car il est le chouchou d'Ecaflip.
-        Il entretient également une rivalité avec son frère Atcham en ce qui concerne le maniement du sabre.</p>
-
-        <h3>Ecaflipus – Gardien du Plateau de Ush</h3>
-        <p>Ush s’est installé dans la dimension Ecaflipus où il trouve refuge dans les Landes Poilues.
-        L’entrée de son plateau est gardée par Chalfred, son majordome, qui s’occupe également de restituer les corps de ses victimes à leurs familles.
-        Ush n'a pas tardé à se construire une mauvaise réputation dans la dimension et à se faire de nombreux ennemis.
-        Il se méfie tout particulièrement du Chagun qui souhaite se débarrasser des fils d’Ecaflip afin de régner en seul maître sur Ecaflipus.
-        Ush Galesh est à l'origine de la malédiction de Félithropie qui transforme les aventuriers en matougarous.
-        Cette malédiction a pour but de protéger la dimension Ecaflipus de l'arrivée massive de Douziens.</p>
-
-        <h3>Bonta</h3>
-        <p>Plusieurs décennies plus tard, Ush se rend dans le Monde des Douze pour devenir un notable de Bonta.
-        Pourtant, l’Ecaflip s’ennuie des mondanités de la ville et recrute des mercenaires pour cambrioler son propre domicile afin de se divertir et tromper l’ennui, les mercenaires étant généralement éliminés en tombant dans les pièges de sa résidence.
-        Un jour, Ush engage Remington Smisse et son frère Grany pour cambrioler sa tour.
-        Les roublards échouent eux aussi face au demi-dieu qui choisit de transformer Grany en Chacha et de donner un an à son frère pour revenir le défier.
-        Ush vole également l’œil de la voyante Calypso di Mettronome afin de diminuer ses pouvoirs et l’empêcher de retrouver le Dofus de Gresgaoulian avant lui, grâce à ses dons.
-        Toutefois, Calypso retrouve le Dofus plusieurs années plus tard et, grâce à lui, l’usage de son œil.
-        Encore plus tard, Ush rassemble d’autres notables de Bonta afin de leur faire prendre conscience du déclin de la cité blanche et décide de laisser sa vie de criminel derrière lui.
-        Lorsqu’un monstre géant surgit des profondeurs des égouts de la cité, Ush n’hésite pas à se sacrifier pour protéger la ville.
-        Par ce geste, Ush redore son image et décide d’emprunter une nouvelle voie lors de sa prochaine réincarnation.</p>
-
-        <h3>Nouvelle Vie</h3>
-        <p>Suite à sa réincarnation, Ush réintègre la Fratrie des Oubliés avec, cette fois, l’ambition de protéger le Monde des Douze.
-        L’Ecaflip rassemble deux Dofus Eliatropes pour les tenir loin de la Confrérie du Tofu et éviter que la confrontation entre les Dofus Eliatropes et ceux d’Ogrest ne cause la fin du monde.
-        Il met au défi Yugo de lui reprendre les Dofus et rassemble une équipe constituée de Remington, Percimol et Maskemane pour affronter l'Eliatrope accompagné de Joris, Kerubim et Atcham.
-        Finalement, Ush retrouve Yugo et la Confrérie du Tofu en tant que gardien du troisième étage de la Tour des Rêves, une salle qui ressemble à un arbre à chat géant.
-        La confrérie attaque Ush pour s'emparer de la clé mais l’Ecaflip empêche l’Eliatrope d’utiliser ses portails.
-        Cependant, grâce à l’intervention d’Elely, Yugo peut à nouveau recourir à ses portails et s'empare de la clé lui permettant de se rendre à l’étage suivant.</p>
-    `
-    }
+    { id: 9, name: "Sacrieur", image: "/images/sacrieur.png", },
+    { id: 10, name: "Ush", image: "/images/ush.png", }
 ];
 
 // Route pour la liste complète

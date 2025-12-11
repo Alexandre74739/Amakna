@@ -489,6 +489,7 @@ const personnages = [
         Cependant, grâce à l’intervention d’Elely, Yugo peut à nouveau recourir à ses portails et s'empare de la clé lui permettant de se rendre à l’étage suivant.</p>
     `
     }
+
 ];
 
 // Route pour la liste complète

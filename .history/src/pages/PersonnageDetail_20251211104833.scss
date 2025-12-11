@@ -29,7 +29,12 @@ button {
         margin: 64px 0 0 0;
     }
 
-    p {
+    p, li {
         @include typo-p;
-    } 
+    }
+
+    li {
+        text-align: start;
+    }
+    
 }

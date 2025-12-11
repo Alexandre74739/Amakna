@@ -16,6 +16,7 @@ function PersonnageDetail() {
         const found = data.find((p) => p.name.toLowerCase() === name.toLowerCase());
         setPersonnage(found);
       })
+      .catch((err) => console.error("Erreur API :", err));
   }, [name]);
 
   if (!personnage) return <p>Chargement ou personnage introuvable...</p>;

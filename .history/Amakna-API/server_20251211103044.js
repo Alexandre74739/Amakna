@@ -250,18 +250,18 @@ const personnages = [
 
             <h3>Gardienne d'Amakna</h3>
             <p>Mériana faisait autrefois partie d'un groupe de sorcières veillant sur le Monde des Douze : les Gardiennes d'Amakna.
-            Elle était ainsi la Gardienne du Sud, dont Pytch est le Méryde.</p>
+            Elle était ainsi la Gardienne du Sud, dont Pytch est le Méryde.
 
             <h3>Relation avec Bethel</h3>
-            <p>Mériana trouva un amant en la personne de Bethel Akarna, un puissant mage osamodas, avec qui elle eut une fille : Furye.
+            Mériana trouva un amant en la personne de Bethel Akarna, un puissant mage osamodas, avec qui elle eut une fille : Furye.
             En 492, Bethel tenta de profiter de l'alignement des étoiles pour ramener le Dragon Bolgrot à la vie afin d'obtenir de lui un Dofus.
             Les Gardiennes réussirent à stopper sa folie à temps, mais subirent une lourde perte.
             En effet, Furye, la gardienne de l’Ouest, s'était rangée du côté de son père et désirait achever son œuvre.
             Mériana n’eut d’autre choix que de sacrifier sa propre fille pour empêcher la catastrophe.
-            Depuis cette date, l’âme de Furye erre sur Externam sans pouvoir trouver le repos.</p>
+            Depuis cette date, l’âme de Furye erre sur Externam sans pouvoir trouver le repos.
 
             <h3>Collecte des Dofus</h3>
-            <p>Depuis le Jour Maudit de l'an 634 où les Dofus disparurent, Mériana guide les aventuriers dans leur quête pour les rassembler.
+            Depuis le Jour Maudit de l'an 634 où les Dofus disparurent, Mériana guide les aventuriers dans leur quête pour les rassembler.
             Pour le Dofus Émeraude d’Aerafal, Mériana utilise ses pouvoirs pour transformer les aventuriers en dragon grâce au talisman de Prysmaradoth, permettant ainsi de vaincre Dark Vlad et de lever la malédiction.
             En guise de gratitude, Goultard leur remet le Dofus Émeraude.
             Pour le Dofus Pourpre d’Ignemikhal, elle oriente les aventuriers vers le labyrinthe du Minotoror, dans l’antichambre du Minotot.
@@ -280,215 +280,19 @@ const personnages = [
             Enfin, pour le Dofus Ébène de Grougalorasalar, les aventuriers partent à la recherche de ce que le de son fils Crocoburio.
             Mériana aide d’abord les aventuriers à récupérer Crocobur, l’épée légendaire de Crocoburio, puis procède au rituel de séparation des âmes pour libérer la petite Léane et permettre au fils de Grougalorasalar de se réincarner.
             Si le dragon noir envisage dans un premier temps de carboniser le saveur de son fils, il accepte finalement de lui laisser son Dofus en réalisant que sa mort rendrait Crocoburio inconsolable.
-            Grâce à Mériana, les six Dofus primordiaux sont ainsi réunis, permettant l’accomplissement de la prophétie.</p>
+            Grâce à Mériana, les six Dofus primordiaux sont ainsi réunis, permettant l’accomplissement de la prophétie.
 
             <h3>Réunion des six Dofus</h3>
-            <p>Une fois les six Dofus réunis, le gardien des Dofus se rend dans le sanctuaire des Dofus à Pandala pour placer les Dofus sur le réceptacle mais tombe dans le piège des Nordes.
+            Une fois les six Dofus réunis, le gardien des Dofus se rend dans le sanctuaire des Dofus à Pandala pour placer les Dofus sur le réceptacle mais tombe dans le piège des Nordes.
             Il décide alors de retourner auprès de Mériana mais se fait suivre par les envoyés du destin.
             Mériana révèle alors sa véritable apparence de demi-dragonne pour se débarrasser des assaillants.
-            La sorcière conseille ensuite au porteur des Dofus primordiaux de couper les fils de la tapisserie des Nordes pour s’affranchir de son destin.</p>
+            La sorcière conseille ensuite au porteur des Dofus primordiaux de couper les fils de la tapisserie des Nordes pour s’affranchir de son destin.
         `
     },
-    {
-        id: 7,
-        name: "Otomai",
-        image: "/images/otomai.png",
-        description: `
-            <h2>Histoire</h2>
-
-            <h3>Créateur et alchimiste</h3>
-            <p>Créateur de la célèbre potion contre la myxomawose, enchanteur spécialisé dans l'étude des créatures du vivant, il est à l'origine de la découverte de l'île qui porte aujourd'hui son nom.
-            C'est là qu'il a tenté de réunir les différentes espèces animales du Monde des Douze grâce à son arche, afin de pratiquer de mystérieuses expériences.
-            Du fait de cet échec, Otomaï décide de s'en remettre aux aventuriers à qui il demande de lui capturer l'âme des monstres dont il a besoin ; en récompense, il leur promet un Dofus.
-            Il est également le père d'Ogrest, qu'il aurait créé par erreur à l'aide de la Plasmogrine.</p>
-
-            <h3>Enfance</h3>
-            <p>Otomaï passa son enfance dans une famille de simples bergers.
-            Sa mère tomba enceinte lors d'une rencontre avec la déesse Féca tandis que son père accepta la présence de ce fils illégitime, espérant en faire son reflet.
-            Bien qu'il se montrait tolérant envers Otomaï, ce dernier pouvait être violent avec sa femme.
-            Dès son plus jeune âge, Otomaï était fasciné par les sciences et l’étude du vivant, à l'inverse de son père qui aurait préféré que son fils accepte l'œuvre de la déesse plutôt que d'en chercher les causes.</p>
-
-            <h3>Romance</h3>
-            <p>Pendant qu’il gardait le troupeau de Bouftous de son père, Otomaï rencontra Mérina, une jeune Féca qui dormait dans les hautes herbes.
-            Les deux eurent un coup de foudre l’un pour l’autre.
-            Plus tard, Otomaï et Mérina se retrouvèrent sur les bancs de l’école.
-            Les années passèrent et confirmèrent leur attirance mutuelle.
-            Une fois adulte, le couple souhaitait avoir des enfants mais, malheureusement, Mérina était infertile.
-            Otomaï promit alors de l’aider à porter la vie.
-            L’alchimiste s’enferma des années dans son laboratoire à la recherche d’une solution pendant que son épouse menait sa vie de bergère.
-            Toutefois, contrairement à Otomaï qui était d'ascendance divine, Mérina vieillissait et mourut avant que celui-ci ne puisse tenir sa promesse.
-            Cette disparition bouleversa le demi-dieu.</p>
-
-            <h3>Découverte de l'île</h3>
-            <p>Otomaï découvrit l'île qui porte aujourd'hui son nom par hasard, en cherchant un nouvel éden, une île vierge de toutes les perversions que l'on peut trouver sur le continent.
-            En arrivant sur l'île, il constate que celle-ci a jadis été habitée par une civilisation ayant construit des bâtiments et des laboratoires d'alchimie ; lui et son équipe n'ont fait que restaurer ce qui était déjà en place, bien qu'abîmé.
-            De temps en temps, de nouveaux vestiges de cette civilisation jusqu'alors enfouis sous terre sont découverts.
-            Lors de ses recherches, Otomaï découvre que cette civilisation disparue aurait été mêlée de près aux Dofus.</p>
-
-            <h3>Gardien de Dofus</h3>
-            <p>Les travaux et la sagesse d’Otomaï lui valurent l’honneur d’être approché par les gardiens de Dofus.
-            Lors d’une cérémonie secrète, il fut choisi pour devenir le gardien du Dofus Ocre.
-            Toutefois, la rumeur de la présence d'un Dofus sur son île attira de nombreux aventuriers qui s’installèrent dans le village côtier.
-            Pour tromper les voleurs, l'alchimiste fabriquait régulièrement de faux Dofus Ocre boostés par alchimie.
-            C’était un bon stratagème puisque les aventuriers repartaient avec les faux Dofus dont la magie suffisait à les tromper.</p>
-
-            <h3>Naissance d'Ogrest</h3>
-            <p>Un jour, Otomaï trouva le corps inanimé de Dathura, une des poupées divines de Sadida, dont le cœur en Ogrine était transpercé.
-            L’alchimiste chercha de l’Ogrine pour réparer son cœur.
-            Lors de ses expériences, il renversa la substance, donnant naissance à un petit bébé vert.
-            Comme cette créature était née de l’Ogrine, Otomaï décida de le nommer Ogrest.
-            Il devint son père adoptif et prit en charge son éducation.
-            Ogrest possédait deux particularités délicates à gérer : son estomac dimensionnel et ses larmes magiques, qui pouvaient transformer la cave d’Otomaï en piscine géante.
-            Ogrest eu une enfance heureuse avec Otomaï, bien qu'il se sentait seul, jusqu’au jour où il découvrit le corps de Dathura dans l'atelier d’Otomaï.
-            Sa beauté était tellement envoûtante qu’il en tomba amoureux au premier regard.
-            Ogrest parcourut toute l’île à la recherche d’Ogrine mais sans y parvenir.
-            Comprenant que la poupée risquait de rester endormie à tout jamais, il pleura sur le corps de Dathura.
-            Une de ses larmes tomba sur son cœur et réveilla la poupée divine.
-            Dathura reprit vie et accepta de vivre avec Otomaï et Ogrest, elle avait beaucoup d’affection pour Ogrest.</p>
-
-            <h3>Retour à la Solitude</h3>
-            <p>En l'an 666, Dathura disparut, appelée par sa sœur Lacrima grâce à la flûte de Sadida.
-            Peu après, Ogrest quitta à son tour l'alchimiste pour se lancer à la recherche de sa bien-aimée.
-            Ogrest retrouva Dathura au château du comte Harebourg lors du tournoi de la fratrie des Oubliés mais Dathura fut piégée dans la glace en tentant de s'emparer du Dofus des Glaces.
-            Otomaï se retrouva à nouveau seul.
-            Une fois Ogrest libéré de la glace, il rassembla les Dofus Primordiaux et provoqua une série de catastrophes sur le Monde des Douze menant au Chaos d'Ogrest et la fin de l'âge des Dofus.</p>
-
-            <h3>Ère du Wakfu et fin du Chaos d’Ogrest</h3>
-            <p>En l'an 988, Ogrest eut une seconde crise de larmes qui menaçait d’engloutir les terres immergées, à commencer par le Royaume Sadida.
-            Otomaï, qui culpabilisait d'avoir abandonné son fils, se rendit au repaire d'Ogrest, au sommet du Mont Zinit.
-            Pendant que Yugo et Tristepin affrontaient Ogrest, l'alchimiste mit au point une stratégie pour le neutraliser.
-            Otomaï prit la forme d'un oiseau pour entrer dans la gueule d'Ogrest et chercher les Dofus Primordiaux dans son estomac.
-            Le plan fonctionna et l’alchimiste parvint à retirer les Dofus du ventre d’Ogrest qui reprit son apparence d’enfant.
-            Otomaï s’excusa d’avoir abandonné son fils et promit de rattraper le temps perdu.
-            Ogrest accepta de retourner vivre avec son père tandis qu'il confiait ses Dofus aux six Dragons.
-            Le roi Sheran Sharm du Royaume Sadida accepta de le laisser partir sans punition après l'assurance d'Otomaï qu'il ne serait plus une menace.</p>
-
-            <h3>Les thèses d'Otomaï</h3>
-            <p>Lors de ses recherches sur cette ancienne civilisation, Otomaï lut de nombreux ouvrages dont les thèses remettaient en cause la toute-puissance des dieux.
-            Ces livres furent interdits par les autorités qui les jugeaient trop dangereux.
-            On peut supposer qu'ils font l'apologie d'une science rationnelle qui exclut toute intervention divine et explique le monde matériel par un enchaînement de causes et d'effets rationnels.
-            Otomaï a également procédé à des recherches sur les Dofus et a conclu que les dragons pouvaient être à l'origine d'une couvée entière de Dofus, mais qu'un seul pourrait donner naissance à un autre dragon.
-            Il pensait que cette connaissance serait d'ordre transcendant, donc inaccessible pour l'instant.</p>
-
-            <h3>Les expériences d'Otomaï</h3>
-            <p>Otomaï ne serait pas connu sans ses expériences aux conséquences parfois désastreuses.
-            On peut citer le Tynril, devenu incontrôlable, ou encore Amy l'empoisonneuse, ancienne cobaye de l'alchimiste.
-            Il est également à l'origine de la rosissure : en créant un ballotin de chocolats aux vertus aphrodisiaques, une erreur transforma le pelage des bouftous en teinte rosée chaque 14 Flovor, donnant naissance à la fête de La Sain Ballotin.
-            Ses assistants, comme le Docteur Morose, semblent cacher de terribles secrets.
-            Il découvrit également un remède contre la myxomawose, alors qu'il préparait un dessert à base de gelée.
-            En renversant du Plasmogrine sur ses vêtements, il constata qu'ils pouvaient parler, donnant naissance aux Obvijevans.
-            Il tenta de les enfermer dans une armoire, mais ils se reproduisirent à son insu.</p>
-        `
-    },
-    {
-        id: 8,
-        name: "Pandawa",
-        image: "/images/pandawa.png",
-        description: `
-            <h2>Histoire</h2>
-
-            <h3>Accession au Panthéon</h3>
-            <p>Un fait peu connu, la Déesse Pandawa était là au commencement du Monde !
-            Elle faisait partie des innombrables petits dieux, et était beaucoup moins puissante qu’aujourd’hui.
-            Un jour qu’elle réfléchissait, pensant au moyen de convertir de nouveaux fidèles, elle tomba sur une dépouille de Blop ayant succombé à une giclée de Sporme.
-            Le tout était presque liquide et une nuée de Corbacs s'agitait autour de la dépouille.
-            À sa grande surprise, les volatiles noirs étaient tous ivres, titubant et incapables de s’envoler.
-            Elle eut ainsi LA révélation : son pouvoir pouvait s'accroître à mesure qu’elle expérimentait l’art de la fermentation.
-            Tout y passa : végétaux et créatures, organes et pelures devenaient des liquides à la saveur incomparable, et qui mettaient ceux qui les buvaient dans des états seconds, durant lesquels la Déesse s’empressait de leur parler.
-            Il n’en fallait pas plus pour convaincre tous les ivrognes du coin que la Déesse Pandawa était une déesse extra.
-            Sa popularité fut bientôt si grande qu’elle prit la place qui lui revenait de plein droit, le 17 Martalo de l'an 12, aux côtés des autres dieux du Panthéon.</p>
-
-            <h3>Protectrice de Pandala</h3>
-            <p>Autrefois, Imagirorukam était le protecteur de Pandala.
-            Cependant, l'âme du dragon se sépara en deux lors d'une traversée à travers les abîmes du temps, donnant naissance aux dragons jumeaux Imagiro et Orukam.
-            N'étant plus capable de protéger son île, c'est la Déesse Pandawa qui prit sa place et devint la nouvelle protectrice de Pandala.
-            La Main de la Déesse Pandawa est toutefois la clé de la réunification des deux dragons.
-            En effet, en faisant tourner le Wukin et le Wukang dans la paume de sa main, Pandawa peut de nouveau réunir les deux dragons en un seul.</p>
-
-            <h3>Ses commandements</h3>
-            <p>Tu ne poutreras pas ton voisin alors qu'il boit son verre avec une paille, tu risquerais de la lui mettre dans l'œil.
-            Tu te serviras d'un éventail pour brasser de l'air.
-            Tu tiendras la buvette et l'alcool lors des fêtes estivales.
-            Tu prendras garde au coup de bambou après un repas bien arrosé.
-            Tu ne renverseras point la divine bibine, car sa mousse tache et a tendance à piquer.
-            Tu éviteras les mélanges qui ne sont pas du même tonneau.
-            Tu ne conduiras pas d'attelage en état d'ébriété.
-            Tu ne porteras point tes amis si tu es trop porté sur la bouteille.
-            Tu poseras la question rituelle quand un individu débarquera dans une soirée sacrée sans avoir été invité : "Hey, t'es qui, là ?".
-            Tu utiliseras des agents à fermenter si tu veux éviter les mauvaises surprises.
-            Si tu ne suis pas ces préceptes, tu devras boire 5 litres d'eau pure en signe de pénitence.</p>
-        `
-    },
-    {
-        id: 9,
-        name: "Déesse Sacrieur",
-        image: "/images/sacrieur.png",
-        description: `
-        <h2>Histoire</h2>
-
-        <h3>Rôle et pouvoir</h3>
-        <p>Sacrieur est la Déesse de la douleur et du sacrifice.
-        Elle est aussi l'une des Douze Dieux Majeurs.
-        Elle subit les blessures de ses disciples, les Sacrieurs, à leur place et leur octroie une force monstrueuse en échange.
-        Ainsi, ils n’hésitent pas à se prendre les coups pour retourner la situation contre leurs adversaires.
-        L’une des dernières arrivées au Panthéon des Dieux, Sacrieur est belle, rebelle et un brin opportuniste.
-        Les souffrances qui lui sont infligées, elle les endure tout en restant sereine.
-        Paradoxalement, elle ne supporte pas que les êtres vivants souffrent et ses élans miséricordieux envers les faibles et les opprimés sont souvent suivis d’une colère vengeresse envers les forts et les oppresseurs.
-        Sa grande beauté et son art consommé du combat en font une déesse vénérée avec ferveur.
-        Elle apparaît parfois sur les champs de bataille lorsqu’ils sont désertés et vient verser une larme de compassion sur la terre gorgée du sang des vaincus.</p>
-
-        <h3>Accession au Panthéon</h3>
-        <p>La déesse Sacrieur accède au Panthéon le premier Flovor de l'an 11.
-        Cette accession survient après que de grands froids aient rythmé le mois de Javian.
-        En effet, le démon Djaul, furieux de son échec face à Aguabrial, venait d'éliminer Solar, le protecteur de Javian, et faisait durer ses tempêtes hivernales.
-        Se tournant vers les autres dieux, mais n'en recevant aucune réponse, les habitants du Monde des Dix se tournent vers une nouvelle figure de compassion : la déesse Sacrieur.
-        Ses fidèles se multipliant, Sacrieur rejoint les dix Dieux en place, malgré la fureur de Rushu, qui voit là une usurpation.
-        Qu'importe, le Monde des Dix devient le Monde des Onze.
-        Cette accession au Panthéon est commémorée chaque 1er Flovor à l'occasion de la Pleurnichouille, sous l'égide de Tolgnas.</p>
-    `
-    },
-    {
-        id: 10,
-        name: "Ush Galesh",
-        image: "/images/ush.png",
-        description: `
-        <h2>Histoire</h2>
-
-        <h3>Famille</h3>
-        <p>Ush Galesh est l'un des enfants d'Ecaflip, ce qui en fait le demi-frère de Kerubim Crépin, Atcham, Domino et Cendre.
-        Malgré ses liens familiaux, Ush n’éprouve aucune envie de considérer ses demi-frères comme sa famille et méprise son père, estimant que ce dernier n’a jamais rien fait en sa faveur.
-        Cette haine envers Ecaflip le pousse à intégrer la Fratrie des Oubliés, dont l’ambition de remplacer les dieux par leurs enfants délaissés semble lui correspondre.
-        Ush déteste probablement Kerubim car il est le chouchou d'Ecaflip.
-        Il entretient également une rivalité avec son frère Atcham en ce qui concerne le maniement du sabre.</p>
-
-        <h3>Ecaflipus – Gardien du Plateau de Ush</h3>
-        <p>Ush s’est installé dans la dimension Ecaflipus où il trouve refuge dans les Landes Poilues.
-        L’entrée de son plateau est gardée par Chalfred, son majordome, qui s’occupe également de restituer les corps de ses victimes à leurs familles.
-        Ush n'a pas tardé à se construire une mauvaise réputation dans la dimension et à se faire de nombreux ennemis.
-        Il se méfie tout particulièrement du Chagun qui souhaite se débarrasser des fils d’Ecaflip afin de régner en seul maître sur Ecaflipus.
-        Ush Galesh est à l'origine de la malédiction de Félithropie qui transforme les aventuriers en matougarous.
-        Cette malédiction a pour but de protéger la dimension Ecaflipus de l'arrivée massive de Douziens.</p>
-
-        <h3>Bonta</h3>
-        <p>Plusieurs décennies plus tard, Ush se rend dans le Monde des Douze pour devenir un notable de Bonta.
-        Pourtant, l’Ecaflip s’ennuie des mondanités de la ville et recrute des mercenaires pour cambrioler son propre domicile afin de se divertir et tromper l’ennui, les mercenaires étant généralement éliminés en tombant dans les pièges de sa résidence.
-        Un jour, Ush engage Remington Smisse et son frère Grany pour cambrioler sa tour.
-        Les roublards échouent eux aussi face au demi-dieu qui choisit de transformer Grany en Chacha et de donner un an à son frère pour revenir le défier.
-        Ush vole également l’œil de la voyante Calypso di Mettronome afin de diminuer ses pouvoirs et l’empêcher de retrouver le Dofus de Gresgaoulian avant lui, grâce à ses dons.
-        Toutefois, Calypso retrouve le Dofus plusieurs années plus tard et, grâce à lui, l’usage de son œil.
-        Encore plus tard, Ush rassemble d’autres notables de Bonta afin de leur faire prendre conscience du déclin de la cité blanche et décide de laisser sa vie de criminel derrière lui.
-        Lorsqu’un monstre géant surgit des profondeurs des égouts de la cité, Ush n’hésite pas à se sacrifier pour protéger la ville.
-        Par ce geste, Ush redore son image et décide d’emprunter une nouvelle voie lors de sa prochaine réincarnation.</p>
-
-        <h3>Nouvelle Vie</h3>
-        <p>Suite à sa réincarnation, Ush réintègre la Fratrie des Oubliés avec, cette fois, l’ambition de protéger le Monde des Douze.
-        L’Ecaflip rassemble deux Dofus Eliatropes pour les tenir loin de la Confrérie du Tofu et éviter que la confrontation entre les Dofus Eliatropes et ceux d’Ogrest ne cause la fin du monde.
-        Il met au défi Yugo de lui reprendre les Dofus et rassemble une équipe constituée de Remington, Percimol et Maskemane pour affronter l'Eliatrope accompagné de Joris, Kerubim et Atcham.
-        Finalement, Ush retrouve Yugo et la Confrérie du Tofu en tant que gardien du troisième étage de la Tour des Rêves, une salle qui ressemble à un arbre à chat géant.
-        La confrérie attaque Ush pour s'emparer de la clé mais l’Ecaflip empêche l’Eliatrope d’utiliser ses portails.
-        Cependant, grâce à l’intervention d’Elely, Yugo peut à nouveau recourir à ses portails et s'empare de la clé lui permettant de se rendre à l’étage suivant.</p>
-    `
-    }
+    { id: 7, name: "Ottomai", image: "/images/ottomai.png", },
+    { id: 8, name: "Pandawa", image: "/images/pandawa.png", },
+    { id: 9, name: "Sacrieur", image: "/images/sacrieur.png", },
+    { id: 10, name: "Ush", image: "/images/ush.png", }
 ];
 
 // Route pour la liste complète
