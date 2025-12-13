@@ -3,7 +3,6 @@
 .jeux {
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
 
     h1 {
@@ -22,7 +21,8 @@
     .games-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        margin-top: 40px;
+        align-items: center;
+        margin: 40px auto 0 auto;
         gap: 40px;
     }
 }
@@ -31,6 +31,15 @@
 
 @media (max-width: 1024px) {
   .jeux {
+
+    h1 {
+        font-size: 64px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
     .games-container {
       grid-template-columns: repeat(2, 1fr);
     }
