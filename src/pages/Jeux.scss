@@ -1,6 +1,6 @@
 @import '../_variables';
 
-div {
+.jeux {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,4 +18,30 @@ div {
     .nox {
         @include img-home;
     }
+
+    .games-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 40px;
+        gap: 40px;
+    }
+}
+
+/* Responsive Tablette */
+
+@media (max-width: 1024px) {
+  .jeux {
+    .games-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .jeux {
+    .games-container {
+      grid-template-columns: 1fr;
+    }
+  }
 }

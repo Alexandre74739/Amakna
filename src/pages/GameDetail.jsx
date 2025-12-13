@@ -25,7 +25,6 @@ function GameDetail() {
   return (
     <div className="game-detail">
       <h1>{game.title}</h1>
-      <p>{game.description}</p>
       <GameComponent />
     </div>
   );

@@ -1,0 +1,41 @@
+@import '../_variables';
+
+.game-card {
+    position: relative;
+    padding: 8px;
+    background-color: $card-color;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 25px;
+    transition: 0.3s ease-out;
+
+    &:hover {
+        box-shadow: 0 0 20px $main-item-color;
+    }
+
+    h3 {
+        @include typo-h3;
+        text-decoration: none;
+        text-shadow: 0 0 40px $main-item-color,
+            0 0 30px $main-item-color,
+            0 0 20px $main-item-color,
+            0 0 10px $main-item-color;
+        -webkit-text-stroke: 6px $main-item-color;
+        paint-order: stroke fill;
+        font-family: $second-font;
+        text-wrap: wrap;
+    }
+
+    p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: $second-font;
+    }
+
+    button {
+        height: 60px;
+        width: 240px;
+        font-size: 16px;
+    }
+}

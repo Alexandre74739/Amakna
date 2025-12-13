@@ -25,3 +25,13 @@
         }
     }
 }
+
+// Responsive
+
+@media (max-width: 800px) {
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+}
