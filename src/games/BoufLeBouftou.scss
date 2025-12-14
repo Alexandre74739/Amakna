@@ -1,0 +1,95 @@
+@import '../_variables';
+
+.bouf-le-bouftou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+
+        .btn2 {
+            background-color: $second-item-color;
+
+            &:hover {
+                box-shadow: 0 0 20px $tertiary-item-color;
+            }
+        }
+    }
+
+    .score {
+        font-size: 32px;
+        margin-bottom: 8px;
+        color: $text-color;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(8, 50px);
+        grid-template-rows: repeat(8, 50px);
+        gap: 4px;
+        background-color: $plateau-color;
+        padding: 8px;
+        border-radius: 12px;
+        box-shadow: 0 0 20px #000;
+        margin-bottom: 16px;
+    }
+
+    .cell {
+        width: 50px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: $card-color;
+        position: relative;
+        transition: all 0.3s ease;
+
+        &.player {
+            background-color: $main-item-color;
+            border-radius: 50%;
+            box-shadow: 0 0 10px $main-item-color;
+        }
+
+        &.bouftou {
+            background-color: $second-item-color;
+            border-radius: 50%;
+            box-shadow: 0 0 8px $second-item-color;
+        }
+
+        &.dot::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px;
+            height: 10px;
+            background-color: $text-color;
+            border-radius: 50%;
+        }
+
+        &.obstacle {
+            background-color: $obstacles-color;
+            border-radius: 8px;
+            box-shadow: inset 0 0 4px #000;
+        }
+    }
+
+    .game-status {
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 16px;
+        padding: 8px 16px;
+        border-radius: 100px;
+        text-align: center;
+        width: 350px;
+        color: $card-color;
+        background: $second-item-color;
+
+        &.win {
+            background: $main-item-color;
+            color: $card-color;
+        }
+    }
+}
