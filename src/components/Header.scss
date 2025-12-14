@@ -26,21 +26,70 @@ header {
         display: flex;
 
         a {
-            top: 0;
             position: relative;
             margin: 0 16px;
             text-decoration: none;
             color: $text-color;
-            font-weight: bold;
             font-size: 24px;
             font-weight: bold;
             transition: 0.3s ease-out;
 
             &:hover {
                 color: $main-item-color;
-                top: -4px;
+                transform: translateY(-4px);
                 text-shadow: 0 0 8px $main-item-color;
             }
+        }
+    }
+
+    .burger {
+        display: none;
+        margin-left: auto;
+        height: 48px;
+        cursor: pointer;
+    }
+
+    .nav-mobile {
+        position: absolute;
+        top: calc(100% + 16px);
+        right: 0;
+        width: 280px;
+        padding: 24px;
+        background-color: $card-color;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        box-shadow: 0 0 40px $main-item-color;
+
+        a {
+            position: relative;
+            font-size: 20px;
+            margin: 0 16px;
+            text-decoration: none;
+            color: $text-color;
+            font-weight: bold;
+            transition: 0.3s ease-out;
+
+            &:hover {
+                color: $main-item-color;
+                transform: translateY(-4px);
+                text-shadow: 0 0 8px $main-item-color;
+            }
+        }
+    }
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+    header {
+        nav {
+            display: none;
+        }
+
+        .burger {
+            display: block;
         }
     }
 }
