@@ -1,0 +1,30 @@
+@import '../_variables';
+
+.space-necrome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+
+        .btn2 {
+            background-color: $second-item-color;
+
+            &:hover {
+                box-shadow: 0 0 20px $tertiary-item-color;
+            }
+        }
+    }
+
+    .game-canvas {
+        display: block;
+        margin: 0;
+        border: 2px solid $main-item-color;
+        box-shadow: 0 0 40px $main-item-color;
+        border-radius: 10px;
+    }
+}
