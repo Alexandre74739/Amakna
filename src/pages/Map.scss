@@ -19,3 +19,16 @@ div {
         @include img-home;
     }
 }
+
+@media (max-width: 800px) {
+    .map {
+        
+        h1 {
+            @include typo-Rh1;
+        }
+
+        h2 {
+            @include responsive-typo-h2;
+        }
+    }
+}

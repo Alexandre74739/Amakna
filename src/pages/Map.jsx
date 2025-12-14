@@ -5,7 +5,7 @@ import './Map.scss';
 
 function Map() {
   return (
-    <div>
+    <div className='map'>
       <h1>Amakna</h1>
       <h2>Plongez dans le monde du Krosmoz</h2>
       <img src={pinpin} alt="Pinpin" className="pinpin" />
