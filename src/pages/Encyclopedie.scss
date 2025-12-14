@@ -33,6 +33,7 @@ div {
             width: 100%;
             height: 80px;
             padding-left: 96px;
+            padding-right: 24px;
             border-radius: 100px;
             border: 1px solid $card-color;
             background-color: rgba(247, 250, 252, 0.5);
@@ -41,6 +42,7 @@ div {
             font-size: 32px;
             font-weight: bold;
             outline: none;
+            box-sizing: border-box;
 
             &::placeholder {
                 color: #F7FAFC;
@@ -77,5 +79,78 @@ div {
             }
         }
     }
+}
 
+// Responsive Tablette
+
+// Responsive Tablette
+@media (max-width: 1224px) {
+    .encyclopedie {
+
+        h1 {
+            @include typo-Rh1;
+        }
+
+        h2 {
+            @include responsive-typo-h2;
+        }
+
+        .input-container {
+            max-width: 60%;
+
+            .search-bar {
+                width: 100%;
+                height: 60px;
+                font-size: 16px;
+                padding-left: 80px;
+                padding-right: 16px;
+
+                &::placeholder {
+                    font-size: 16px;
+                }
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                left: 16px;
+            }
+        }
+
+        .cards-container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}
+
+// Responsive Mobile
+
+// Responsive Mobile
+@media (max-width: 800px) {
+    .encyclopedie {
+        .cards-container {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .input-container {
+            max-width: 80%;
+
+            .search-bar {
+                font-size: 12px;
+                padding-left: 48px;
+                padding-right: 16px;
+
+                &::placeholder {
+                    font-size: 12px;
+                }
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+                left: 12px;
+            }
+        }
+    }
 }
