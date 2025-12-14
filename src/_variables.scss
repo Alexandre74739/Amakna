@@ -110,3 +110,14 @@ $second-font: "Irish Grover", system-ui;
     font-size: 20px;
     font-weight: bold;
 }
+
+// Responsive
+
+@mixin responsive-typo-h2 {
+    font-size: 40px;
+}
+
+@mixin responsive-typo-p {
+    font-size: 12px;
+    line-height: 1.2rem;
+}

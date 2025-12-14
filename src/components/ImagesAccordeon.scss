@@ -4,7 +4,6 @@
     margin-top: 64px;
     text-align: center;
     align-items: center;
-    
 
     .accordeon-item {
         cursor: pointer;
@@ -27,4 +26,25 @@
             width: 75%;
         }
     }
+}
+
+@media (max-width: 1240px) {
+    .accordeon-container {
+
+        h2 {
+            @include responsive-typo-h2;
+        }
+
+        .accordeon-item {
+            
+            img {
+                width: 80%;
+            }
+
+            p {
+                @include responsive-typo-p;
+            }
+        }
+    }
+
 }
