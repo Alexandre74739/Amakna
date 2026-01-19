@@ -31,8 +31,7 @@ Jeux simples, rapides et dans l’ambiance du Krosmoz.
 ---
 
 ## 🛠️ Technologies utilisées
-- **HTML**
-- **CSS**
+- **SCSS**
 - **React** (en JavaScript)
 - **Figma** (maquettage)
 
@@ -71,5 +70,6 @@ Développeur web passionné par l’univers développé par Ankama.
 ---
 
 ## ⚠️ Note
+### Le projet possède une API interne qui a besoin d'être lançé en local pour fonctionner
 
 ### Projet étudiant non affilié à Ankama.  
